@@ -1,0 +1,984 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E1214C719EFA52200463E9B /* GeneticCodeTables in Resources */ = {isa = PBXBuildFile; fileRef = 4E1214C619EFA52200463E9B /* GeneticCodeTables */; };
+		4E28172219F0C93400860621 /* Coloring in Resources */ = {isa = PBXBuildFile; fileRef = 4E28172119F0C93400860621 /* Coloring */; };
+		4E62FC691A93107600CFD8D0 /* MFScaleBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E62FC681A93107600CFD8D0 /* MFScaleBar.m */; };
+		4E63B7211AC2146A00643129 /* NSObject+TDBindings.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E63B7201AC2146A00643129 /* NSObject+TDBindings.m */; };
+		4E8120341B044F9B004A3F3E /* MFSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8120321B044F9B004A3F3E /* MFSearchController.m */; };
+		4E8120351B044F9B004A3F3E /* MFSearchController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E8120331B044F9B004A3F3E /* MFSearchController.xib */; };
+		4E8120381B057BE5004A3F3E /* MFK83DistanceMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8120371B057BE5004A3F3E /* MFK83DistanceMatrix.m */; };
+		4E8922E01982277900A0DC64 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8922DF1982277900A0DC64 /* Cocoa.framework */; };
+		4E8922EA1982277900A0DC64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E8922E81982277900A0DC64 /* InfoPlist.strings */; };
+		4E8922EC1982277900A0DC64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8922EB1982277900A0DC64 /* main.m */; };
+		4E8922F01982277900A0DC64 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4E8922EE1982277900A0DC64 /* Credits.rtf */; };
+		4E8922F31982277900A0DC64 /* MFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8922F21982277900A0DC64 /* MFDocument.m */; };
+		4E8922F61982277900A0DC64 /* MFDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E8922F41982277900A0DC64 /* MFDocument.xib */; };
+		4E8922F91982277900A0DC64 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E8922F71982277900A0DC64 /* MainMenu.xib */; };
+		4E8922FB1982277900A0DC64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8922FA1982277900A0DC64 /* Images.xcassets */; };
+		4E8923021982277900A0DC64 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8923011982277900A0DC64 /* XCTest.framework */; };
+		4E8923031982277900A0DC64 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8922DF1982277900A0DC64 /* Cocoa.framework */; };
+		4E89230B1982277900A0DC64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E8923091982277900A0DC64 /* InfoPlist.strings */; };
+		4E89230D1982277900A0DC64 /* SeqotronTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E89230C1982277900A0DC64 /* SeqotronTests.m */; };
+		4E892332198227C200A0DC64 /* MFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E892319198227C200A0DC64 /* MFAppDelegate.m */; };
+		4E892333198227C200A0DC64 /* MFDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E89231B198227C200A0DC64 /* MFDataType.m */; };
+		4E892334198227C200A0DC64 /* MFNamesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E89231E198227C200A0DC64 /* MFNamesView.m */; };
+		4E892335198227C200A0DC64 /* MFNucleotide.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E892320198227C200A0DC64 /* MFNucleotide.m */; };
+		4E892337198227C200A0DC64 /* MFProtein.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E892324198227C200A0DC64 /* MFProtein.m */; };
+		4E892338198227C200A0DC64 /* MFSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E892326198227C200A0DC64 /* MFSequence.m */; };
+		4E892339198227C200A0DC64 /* MFSequenceReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E892328198227C200A0DC64 /* MFSequenceReader.m */; };
+		4E89233A198227C200A0DC64 /* MFSequenceSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E89232A198227C200A0DC64 /* MFSequenceSet.m */; };
+		4E89233B198227C200A0DC64 /* MFSequencesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E89232C198227C200A0DC64 /* MFSequencesView.m */; };
+		4E89233C198227C200A0DC64 /* MFSequenceWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E89232E198227C200A0DC64 /* MFSequenceWriter.m */; };
+		4E89233D198227C200A0DC64 /* MFSyncronizedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E892330198227C200A0DC64 /* MFSyncronizedScrollView.m */; };
+		4E892342198227E800A0DC64 /* MFRulerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E89233F198227E800A0DC64 /* MFRulerView.m */; };
+		4E892343198227E800A0DC64 /* MFString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E892341198227E800A0DC64 /* MFString.m */; };
+		4E92745E1A0C429200DA48F8 /* MFFileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E92745D1A0C429200DA48F8 /* MFFileReader.m */; };
+		4E9274611A0C4A7300DA48F8 /* MFFASTAImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9274601A0C4A7300DA48F8 /* MFFASTAImporter.m */; };
+		4E9274641A0C4DE400DA48F8 /* MFReaderCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9274631A0C4DE400DA48F8 /* MFReaderCluster.m */; };
+		4E9274671A0C525F00DA48F8 /* MFStringReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9274661A0C525F00DA48F8 /* MFStringReader.m */; };
+		4E92746A1A0C64B000DA48F8 /* MFClustalImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9274691A0C64B000DA48F8 /* MFClustalImporter.m */; };
+		4E9B69581A37F637001157D7 /* MFDistanceMatrixOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9B69571A37F637001157D7 /* MFDistanceMatrixOperation.m */; };
+		4E9B69611A3D72D7001157D7 /* MFTreeWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9B695F1A3D72D7001157D7 /* MFTreeWindowController.m */; };
+		4E9B69621A3D72D7001157D7 /* MFTreeWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E9B69601A3D72D7001157D7 /* MFTreeWindow.xib */; };
+		4E9B69661A3D74AA001157D7 /* MFTreeDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9B69651A3D74AA001157D7 /* MFTreeDocument.m */; };
+		4E9B696A1A3E982E001157D7 /* MFNewickImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9B69691A3E982E001157D7 /* MFNewickImporter.m */; };
+		4E9B696D1A3E9C1F001157D7 /* MFTreeReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9B696C1A3E9C1F001157D7 /* MFTreeReader.m */; };
+		4E9B69701A401631001157D7 /* MFDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9B696F1A401631001157D7 /* MFDocumentController.m */; };
+		4E9B69821A4294EB001157D7 /* MFDistanceWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9B69801A4294EB001157D7 /* MFDistanceWindowController.m */; };
+		4E9B69831A4294EB001157D7 /* MFDistanceMatrixWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E9B69811A4294EB001157D7 /* MFDistanceMatrixWindow.xib */; };
+		4E9B69871A42B31D001157D7 /* MFTreeBuilderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9B69851A42B31D001157D7 /* MFTreeBuilderController.m */; };
+		4E9B69881A42B31D001157D7 /* MFTreeBuilderController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E9B69861A42B31D001157D7 /* MFTreeBuilderController.xib */; };
+		4EA0D7631A22F4EC0084E04C /* NSArray+IndexSetAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0D7621A22F4EC0084E04C /* NSArray+IndexSetAddition.m */; };
+		4EAA0DF0199204E1007FEE79 /* MFWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAA0DEF199204E1007FEE79 /* MFWindowController.m */; };
+		4EAA0DF3199238A5007FEE79 /* MFSequence+MFSequenceDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAA0DF2199238A5007FEE79 /* MFSequence+MFSequenceDrawing.m */; };
+		4EAA0DF619BFF03F007FEE79 /* MFAbstractSequencesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAA0DF519BFF03F007FEE79 /* MFAbstractSequencesView.m */; };
+		4ECFCE8B1AA551B500245B86 /* DBPrefsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECFCE8A1AA551B500245B86 /* DBPrefsWindowController.m */; };
+		4ECFCE8E1AA551F200245B86 /* MFPrefsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECFCE8D1AA551F200245B86 /* MFPrefsWindowController.m */; };
+		4ECFCE901AA5546200245B86 /* MFPrefs.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ECFCE8F1AA5546200245B86 /* MFPrefs.xib */; };
+		4ECFCE931AA5BED600245B86 /* MFSimpleAlignmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECFCE921AA5BED600245B86 /* MFSimpleAlignmentView.m */; };
+		4ECFCE961AA674C700245B86 /* MFColorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECFCE951AA674C700245B86 /* MFColorManager.m */; };
+		4ECFCE991AAAABBB00245B86 /* MFAlignerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECFCE981AAAABBB00245B86 /* MFAlignerController.m */; };
+		4ECFCE9B1AAAABF000245B86 /* MFAligner.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ECFCE9A1AAAABF000245B86 /* MFAligner.xib */; };
+		4ECFCEA41AAD29FF00245B86 /* bin in Resources */ = {isa = PBXBuildFile; fileRef = 4ECFCEA31AAD29FF00245B86 /* bin */; };
+		4ECFCEA71AAD473400245B86 /* MFOperationTransalign.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECFCEA61AAD473400245B86 /* MFOperationTransalign.m */; };
+		4ECFCEAD1AAE54B300245B86 /* MFOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECFCEAC1AAE54B300245B86 /* MFOperation.m */; };
+		4ECFCEB21AAE943C00245B86 /* MFTreeWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECFCEB11AAE943C00245B86 /* MFTreeWriter.m */; };
+		4EDDA2421A00A90D009970DB /* MFSequenceUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDDA2411A00A90D009970DB /* MFSequenceUtils.m */; };
+		4EDDA2481A0855A7009970DB /* MFNexusImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDDA2471A0855A7009970DB /* MFNexusImporter.m */; };
+		4EE911C41A2EB6BD009A11D7 /* MFStockholmImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE911C31A2EB6BD009A11D7 /* MFStockholmImporter.m */; };
+		4EE911C91A2EC4B4009A11D7 /* MFNeighborJoining.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE911C81A2EC4B4009A11D7 /* MFNeighborJoining.m */; };
+		4EE911CD1A3133D3009A11D7 /* MFJukeCantorDistanceMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE911CC1A3133D3009A11D7 /* MFJukeCantorDistanceMatrix.m */; };
+		4EE911D01A31357E009A11D7 /* MFK2PDistanceMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE911CF1A31357E009A11D7 /* MFK2PDistanceMatrix.m */; };
+		4EE911D31A3153F7009A11D7 /* MFGraphic.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE911D21A3153F7009A11D7 /* MFGraphic.m */; };
+		4EE911D61A3156DC009A11D7 /* MFLineGraphic.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE911D51A3156DC009A11D7 /* MFLineGraphic.m */; };
+		4EE911D91A315E8C009A11D7 /* MFTextGraphic.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE911D81A315E8C009A11D7 /* MFTextGraphic.m */; };
+		4EF044821A0C665D00DB9C8E /* MFMEGAImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF044811A0C665D00DB9C8E /* MFMEGAImporter.m */; };
+		4EF044851A0C671B00DB9C8E /* MFGDEImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF044841A0C671B00DB9C8E /* MFGDEImporter.m */; };
+		4EF044881A0C67AB00DB9C8E /* MFNBRFImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF044871A0C67AB00DB9C8E /* MFNBRFImporter.m */; };
+		4EF0448C1A0C68BB00DB9C8E /* MFPhylipImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF0448B1A0C68BB00DB9C8E /* MFPhylipImporter.m */; };
+		4EF0448F1A0C853B00DB9C8E /* MFDistanceMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF0448E1A0C853B00DB9C8E /* MFDistanceMatrix.m */; };
+		4EF044921A0C8F4200DB9C8E /* MFNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF044911A0C8F4200DB9C8E /* MFNode.m */; };
+		4EF044951A0C901700DB9C8E /* MFTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF044941A0C901700DB9C8E /* MFTree.m */; };
+		4EF0449A1A11B1B900DB9C8E /* MFTreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF044991A11B1B900DB9C8E /* MFTreeView.m */; };
+		4EF236121A66728000FDB4D7 /* MFExternalOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF236111A66728000FDB4D7 /* MFExternalOperation.m */; };
+		4EF236161A69FF4800FDB4D7 /* MFProgressController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF236141A69FF4800FDB4D7 /* MFProgressController.m */; };
+		4EF236171A69FF4800FDB4D7 /* MFProgressWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EF236151A69FF4800FDB4D7 /* MFProgressWindow.xib */; };
+		4EF2361F1A6F598E00FDB4D7 /* MFNexusExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF2361E1A6F598E00FDB4D7 /* MFNexusExporter.m */; };
+		4EF236221A6F6C0800FDB4D7 /* MFNewickExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF236211A6F6C0800FDB4D7 /* MFNewickExporter.m */; };
+		4EF236251A6F6D9300FDB4D7 /* MFTreeExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF236241A6F6D9300FDB4D7 /* MFTreeExporter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E8923041982277900A0DC64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8922D41982277900A0DC64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E8922DB1982277900A0DC64;
+			remoteInfo = Seqotron;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E1214C619EFA52200463E9B /* GeneticCodeTables */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GeneticCodeTables; sourceTree = "<group>"; };
+		4E28172119F0C93400860621 /* Coloring */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Coloring; sourceTree = "<group>"; };
+		4E62FC671A93107500CFD8D0 /* MFScaleBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MFScaleBar.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4E62FC681A93107600CFD8D0 /* MFScaleBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MFScaleBar.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4E63B71F1AC2146A00643129 /* NSObject+TDBindings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TDBindings.h"; sourceTree = "<group>"; };
+		4E63B7201AC2146A00643129 /* NSObject+TDBindings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TDBindings.m"; sourceTree = "<group>"; };
+		4E8120311B044F9B004A3F3E /* MFSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSearchController.h; sourceTree = "<group>"; };
+		4E8120321B044F9B004A3F3E /* MFSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSearchController.m; sourceTree = "<group>"; };
+		4E8120331B044F9B004A3F3E /* MFSearchController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFSearchController.xib; sourceTree = "<group>"; };
+		4E8120361B057BE5004A3F3E /* MFK83DistanceMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFK83DistanceMatrix.h; sourceTree = "<group>"; };
+		4E8120371B057BE5004A3F3E /* MFK83DistanceMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFK83DistanceMatrix.m; sourceTree = "<group>"; };
+		4E8922DC1982277900A0DC64 /* Seqotron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seqotron.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8922DF1982277900A0DC64 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4E8922E21982277900A0DC64 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4E8922E31982277900A0DC64 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4E8922E41982277900A0DC64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4E8922E71982277900A0DC64 /* Seqotron-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Seqotron-Info.plist"; sourceTree = "<group>"; };
+		4E8922E91982277900A0DC64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E8922EB1982277900A0DC64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E8922ED1982277900A0DC64 /* Seqotron-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Seqotron-Prefix.pch"; sourceTree = "<group>"; };
+		4E8922EF1982277900A0DC64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4E8922F11982277900A0DC64 /* MFDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFDocument.h; sourceTree = "<group>"; };
+		4E8922F21982277900A0DC64 /* MFDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFDocument.m; sourceTree = "<group>"; };
+		4E8922F51982277900A0DC64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MFDocument.xib; sourceTree = "<group>"; };
+		4E8922F81982277900A0DC64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4E8922FA1982277900A0DC64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4E8923001982277900A0DC64 /* SeqotronTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeqotronTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8923011982277900A0DC64 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4E8923081982277900A0DC64 /* SeqotronTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SeqotronTests-Info.plist"; sourceTree = "<group>"; };
+		4E89230A1982277900A0DC64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E89230C1982277900A0DC64 /* SeqotronTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeqotronTests.m; sourceTree = "<group>"; };
+		4E892318198227C200A0DC64 /* MFAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFAppDelegate.h; sourceTree = "<group>"; };
+		4E892319198227C200A0DC64 /* MFAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFAppDelegate.m; sourceTree = "<group>"; };
+		4E89231A198227C200A0DC64 /* MFDataType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFDataType.h; sourceTree = "<group>"; };
+		4E89231B198227C200A0DC64 /* MFDataType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFDataType.m; sourceTree = "<group>"; };
+		4E89231C198227C200A0DC64 /* MFDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFDefines.h; sourceTree = "<group>"; };
+		4E89231D198227C200A0DC64 /* MFNamesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFNamesView.h; sourceTree = "<group>"; };
+		4E89231E198227C200A0DC64 /* MFNamesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFNamesView.m; sourceTree = "<group>"; };
+		4E89231F198227C200A0DC64 /* MFNucleotide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFNucleotide.h; sourceTree = "<group>"; };
+		4E892320198227C200A0DC64 /* MFNucleotide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFNucleotide.m; sourceTree = "<group>"; };
+		4E892323198227C200A0DC64 /* MFProtein.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFProtein.h; sourceTree = "<group>"; };
+		4E892324198227C200A0DC64 /* MFProtein.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFProtein.m; sourceTree = "<group>"; };
+		4E892325198227C200A0DC64 /* MFSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSequence.h; sourceTree = "<group>"; };
+		4E892326198227C200A0DC64 /* MFSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSequence.m; sourceTree = "<group>"; };
+		4E892327198227C200A0DC64 /* MFSequenceReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSequenceReader.h; sourceTree = "<group>"; };
+		4E892328198227C200A0DC64 /* MFSequenceReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSequenceReader.m; sourceTree = "<group>"; };
+		4E892329198227C200A0DC64 /* MFSequenceSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSequenceSet.h; sourceTree = "<group>"; };
+		4E89232A198227C200A0DC64 /* MFSequenceSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSequenceSet.m; sourceTree = "<group>"; };
+		4E89232B198227C200A0DC64 /* MFSequencesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSequencesView.h; sourceTree = "<group>"; };
+		4E89232C198227C200A0DC64 /* MFSequencesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSequencesView.m; sourceTree = "<group>"; };
+		4E89232D198227C200A0DC64 /* MFSequenceWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSequenceWriter.h; sourceTree = "<group>"; };
+		4E89232E198227C200A0DC64 /* MFSequenceWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSequenceWriter.m; sourceTree = "<group>"; };
+		4E89232F198227C200A0DC64 /* MFSyncronizedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSyncronizedScrollView.h; sourceTree = "<group>"; };
+		4E892330198227C200A0DC64 /* MFSyncronizedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSyncronizedScrollView.m; sourceTree = "<group>"; };
+		4E89233E198227E800A0DC64 /* MFRulerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFRulerView.h; sourceTree = "<group>"; };
+		4E89233F198227E800A0DC64 /* MFRulerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFRulerView.m; sourceTree = "<group>"; };
+		4E892340198227E800A0DC64 /* MFString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFString.h; sourceTree = "<group>"; };
+		4E892341198227E800A0DC64 /* MFString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFString.m; sourceTree = "<group>"; };
+		4E92745C1A0C429200DA48F8 /* MFFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFFileReader.h; sourceTree = "<group>"; };
+		4E92745D1A0C429200DA48F8 /* MFFileReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFFileReader.m; sourceTree = "<group>"; };
+		4E92745F1A0C4A7300DA48F8 /* MFFASTAImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFFASTAImporter.h; sourceTree = "<group>"; };
+		4E9274601A0C4A7300DA48F8 /* MFFASTAImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFFASTAImporter.m; sourceTree = "<group>"; };
+		4E9274621A0C4DE400DA48F8 /* MFReaderCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MFReaderCluster.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4E9274631A0C4DE400DA48F8 /* MFReaderCluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MFReaderCluster.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4E9274651A0C525F00DA48F8 /* MFStringReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFStringReader.h; sourceTree = "<group>"; };
+		4E9274661A0C525F00DA48F8 /* MFStringReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFStringReader.m; sourceTree = "<group>"; };
+		4E9274681A0C64B000DA48F8 /* MFClustalImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFClustalImporter.h; sourceTree = "<group>"; };
+		4E9274691A0C64B000DA48F8 /* MFClustalImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFClustalImporter.m; sourceTree = "<group>"; };
+		4E9B69561A37F637001157D7 /* MFDistanceMatrixOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFDistanceMatrixOperation.h; path = Seqotron/MFDistanceMatrixOperation.h; sourceTree = "<group>"; };
+		4E9B69571A37F637001157D7 /* MFDistanceMatrixOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MFDistanceMatrixOperation.m; path = Seqotron/MFDistanceMatrixOperation.m; sourceTree = "<group>"; };
+		4E9B695E1A3D72D7001157D7 /* MFTreeWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFTreeWindowController.h; sourceTree = "<group>"; };
+		4E9B695F1A3D72D7001157D7 /* MFTreeWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFTreeWindowController.m; sourceTree = "<group>"; };
+		4E9B69601A3D72D7001157D7 /* MFTreeWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFTreeWindow.xib; sourceTree = "<group>"; };
+		4E9B69641A3D74AA001157D7 /* MFTreeDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFTreeDocument.h; sourceTree = "<group>"; };
+		4E9B69651A3D74AA001157D7 /* MFTreeDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFTreeDocument.m; sourceTree = "<group>"; };
+		4E9B69671A3D8D29001157D7 /* MFTreeImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFTreeImporter.h; sourceTree = "<group>"; };
+		4E9B69681A3E982E001157D7 /* MFNewickImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MFNewickImporter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4E9B69691A3E982E001157D7 /* MFNewickImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MFNewickImporter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4E9B696B1A3E9C1F001157D7 /* MFTreeReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFTreeReader.h; sourceTree = "<group>"; };
+		4E9B696C1A3E9C1F001157D7 /* MFTreeReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFTreeReader.m; sourceTree = "<group>"; };
+		4E9B696E1A401631001157D7 /* MFDocumentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFDocumentController.h; sourceTree = "<group>"; };
+		4E9B696F1A401631001157D7 /* MFDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFDocumentController.m; sourceTree = "<group>"; };
+		4E9B697F1A4294EB001157D7 /* MFDistanceWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFDistanceWindowController.h; sourceTree = "<group>"; };
+		4E9B69801A4294EB001157D7 /* MFDistanceWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFDistanceWindowController.m; sourceTree = "<group>"; };
+		4E9B69811A4294EB001157D7 /* MFDistanceMatrixWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFDistanceMatrixWindow.xib; sourceTree = "<group>"; };
+		4E9B69841A42B31D001157D7 /* MFTreeBuilderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFTreeBuilderController.h; sourceTree = "<group>"; };
+		4E9B69851A42B31D001157D7 /* MFTreeBuilderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFTreeBuilderController.m; sourceTree = "<group>"; };
+		4E9B69861A42B31D001157D7 /* MFTreeBuilderController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFTreeBuilderController.xib; sourceTree = "<group>"; };
+		4EA0D7611A22F4EC0084E04C /* NSArray+IndexSetAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+IndexSetAddition.h"; sourceTree = "<group>"; };
+		4EA0D7621A22F4EC0084E04C /* NSArray+IndexSetAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+IndexSetAddition.m"; sourceTree = "<group>"; };
+		4EAA0DEE199204E1007FEE79 /* MFWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFWindowController.h; sourceTree = "<group>"; };
+		4EAA0DEF199204E1007FEE79 /* MFWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFWindowController.m; sourceTree = "<group>"; };
+		4EAA0DF1199238A5007FEE79 /* MFSequence+MFSequenceDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MFSequence+MFSequenceDrawing.h"; sourceTree = "<group>"; };
+		4EAA0DF2199238A5007FEE79 /* MFSequence+MFSequenceDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MFSequence+MFSequenceDrawing.m"; sourceTree = "<group>"; };
+		4EAA0DF419BFF03F007FEE79 /* MFAbstractSequencesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFAbstractSequencesView.h; sourceTree = "<group>"; };
+		4EAA0DF519BFF03F007FEE79 /* MFAbstractSequencesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFAbstractSequencesView.m; sourceTree = "<group>"; };
+		4ECFCE891AA551B500245B86 /* DBPrefsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBPrefsWindowController.h; sourceTree = "<group>"; };
+		4ECFCE8A1AA551B500245B86 /* DBPrefsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBPrefsWindowController.m; sourceTree = "<group>"; };
+		4ECFCE8C1AA551F200245B86 /* MFPrefsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MFPrefsWindowController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4ECFCE8D1AA551F200245B86 /* MFPrefsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MFPrefsWindowController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4ECFCE8F1AA5546200245B86 /* MFPrefs.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFPrefs.xib; sourceTree = "<group>"; };
+		4ECFCE911AA5BED600245B86 /* MFSimpleAlignmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSimpleAlignmentView.h; sourceTree = "<group>"; };
+		4ECFCE921AA5BED600245B86 /* MFSimpleAlignmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSimpleAlignmentView.m; sourceTree = "<group>"; };
+		4ECFCE941AA674C700245B86 /* MFColorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFColorManager.h; sourceTree = "<group>"; };
+		4ECFCE951AA674C700245B86 /* MFColorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFColorManager.m; sourceTree = "<group>"; };
+		4ECFCE971AAAABBB00245B86 /* MFAlignerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFAlignerController.h; sourceTree = "<group>"; };
+		4ECFCE981AAAABBB00245B86 /* MFAlignerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFAlignerController.m; sourceTree = "<group>"; };
+		4ECFCE9A1AAAABF000245B86 /* MFAligner.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFAligner.xib; sourceTree = "<group>"; };
+		4ECFCE9C1AAC0F5100245B86 /* MFOperationBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MFOperationBuilder.h; path = Seqotron/MFOperationBuilder.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4ECFCEA31AAD29FF00245B86 /* bin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bin; sourceTree = "<group>"; };
+		4ECFCEA51AAD473400245B86 /* MFOperationTransalign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MFOperationTransalign.h; path = Seqotron/MFOperationTransalign.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4ECFCEA61AAD473400245B86 /* MFOperationTransalign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = MFOperationTransalign.m; path = Seqotron/MFOperationTransalign.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4ECFCEAB1AAE54B300245B86 /* MFOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = MFOperation.h; path = Seqotron/MFOperation.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4ECFCEAC1AAE54B300245B86 /* MFOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = MFOperation.m; path = Seqotron/MFOperation.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4ECFCEB01AAE943C00245B86 /* MFTreeWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFTreeWriter.h; sourceTree = "<group>"; };
+		4ECFCEB11AAE943C00245B86 /* MFTreeWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFTreeWriter.m; sourceTree = "<group>"; };
+		4EDDA2401A00A90D009970DB /* MFSequenceUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSequenceUtils.h; sourceTree = "<group>"; };
+		4EDDA2411A00A90D009970DB /* MFSequenceUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSequenceUtils.m; sourceTree = "<group>"; };
+		4EDDA2451A0854D0009970DB /* MFSequenceImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSequenceImporter.h; sourceTree = "<group>"; };
+		4EDDA2461A0855A7009970DB /* MFNexusImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MFNexusImporter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4EDDA2471A0855A7009970DB /* MFNexusImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MFNexusImporter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4EE911C31A2EB6BD009A11D7 /* MFStockholmImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFStockholmImporter.m; sourceTree = "<group>"; };
+		4EE911C51A2EB6EC009A11D7 /* MFStockholmImporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFStockholmImporter.h; sourceTree = "<group>"; };
+		4EE911C71A2EC4B4009A11D7 /* MFNeighborJoining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MFNeighborJoining.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4EE911C81A2EC4B4009A11D7 /* MFNeighborJoining.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MFNeighborJoining.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4EE911CB1A3133D3009A11D7 /* MFJukeCantorDistanceMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFJukeCantorDistanceMatrix.h; sourceTree = "<group>"; };
+		4EE911CC1A3133D3009A11D7 /* MFJukeCantorDistanceMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFJukeCantorDistanceMatrix.m; sourceTree = "<group>"; };
+		4EE911CE1A31357E009A11D7 /* MFK2PDistanceMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFK2PDistanceMatrix.h; sourceTree = "<group>"; };
+		4EE911CF1A31357E009A11D7 /* MFK2PDistanceMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFK2PDistanceMatrix.m; sourceTree = "<group>"; };
+		4EE911D11A3153F7009A11D7 /* MFGraphic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFGraphic.h; sourceTree = "<group>"; };
+		4EE911D21A3153F7009A11D7 /* MFGraphic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFGraphic.m; sourceTree = "<group>"; };
+		4EE911D41A3156DC009A11D7 /* MFLineGraphic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MFLineGraphic.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4EE911D51A3156DC009A11D7 /* MFLineGraphic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MFLineGraphic.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4EE911D71A315E8C009A11D7 /* MFTextGraphic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFTextGraphic.h; sourceTree = "<group>"; };
+		4EE911D81A315E8C009A11D7 /* MFTextGraphic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFTextGraphic.m; sourceTree = "<group>"; };
+		4EF044801A0C665D00DB9C8E /* MFMEGAImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MFMEGAImporter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4EF044811A0C665D00DB9C8E /* MFMEGAImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MFMEGAImporter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4EF044831A0C671B00DB9C8E /* MFGDEImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFGDEImporter.h; sourceTree = "<group>"; };
+		4EF044841A0C671B00DB9C8E /* MFGDEImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFGDEImporter.m; sourceTree = "<group>"; };
+		4EF044861A0C67AB00DB9C8E /* MFNBRFImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MFNBRFImporter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4EF044871A0C67AB00DB9C8E /* MFNBRFImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MFNBRFImporter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4EF0448A1A0C68BB00DB9C8E /* MFPhylipImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MFPhylipImporter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4EF0448B1A0C68BB00DB9C8E /* MFPhylipImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MFPhylipImporter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4EF0448D1A0C853B00DB9C8E /* MFDistanceMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFDistanceMatrix.h; sourceTree = "<group>"; };
+		4EF0448E1A0C853B00DB9C8E /* MFDistanceMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFDistanceMatrix.m; sourceTree = "<group>"; };
+		4EF044901A0C8F4200DB9C8E /* MFNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MFNode.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4EF044911A0C8F4200DB9C8E /* MFNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MFNode.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4EF044931A0C901700DB9C8E /* MFTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFTree.h; sourceTree = "<group>"; };
+		4EF044941A0C901700DB9C8E /* MFTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFTree.m; sourceTree = "<group>"; };
+		4EF044981A11B1B900DB9C8E /* MFTreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFTreeView.h; sourceTree = "<group>"; };
+		4EF044991A11B1B900DB9C8E /* MFTreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFTreeView.m; sourceTree = "<group>"; };
+		4EF236101A66728000FDB4D7 /* MFExternalOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFExternalOperation.h; path = Seqotron/MFExternalOperation.h; sourceTree = "<group>"; };
+		4EF236111A66728000FDB4D7 /* MFExternalOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MFExternalOperation.m; path = Seqotron/MFExternalOperation.m; sourceTree = "<group>"; };
+		4EF236131A69FF4800FDB4D7 /* MFProgressController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MFProgressController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4EF236141A69FF4800FDB4D7 /* MFProgressController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MFProgressController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4EF236151A69FF4800FDB4D7 /* MFProgressWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFProgressWindow.xib; sourceTree = "<group>"; };
+		4EF236191A6A1CEB00FDB4D7 /* MFOperationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFOperationDelegate.h; path = Seqotron/MFOperationDelegate.h; sourceTree = "<group>"; };
+		4EF2361D1A6F598E00FDB4D7 /* MFNexusExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MFNexusExporter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4EF2361E1A6F598E00FDB4D7 /* MFNexusExporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MFNexusExporter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4EF236201A6F6C0800FDB4D7 /* MFNewickExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MFNewickExporter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4EF236211A6F6C0800FDB4D7 /* MFNewickExporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MFNewickExporter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4EF236231A6F6D9300FDB4D7 /* MFTreeExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFTreeExporter.h; sourceTree = "<group>"; };
+		4EF236241A6F6D9300FDB4D7 /* MFTreeExporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFTreeExporter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E8922D91982277900A0DC64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8922E01982277900A0DC64 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8922FD1982277900A0DC64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8923031982277900A0DC64 /* Cocoa.framework in Frameworks */,
+				4E8923021982277900A0DC64 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E1214B619E1184400463E9B /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				4E8922F71982277900A0DC64 /* MainMenu.xib */,
+				4ECFCE9A1AAAABF000245B86 /* MFAligner.xib */,
+				4E9B69811A4294EB001157D7 /* MFDistanceMatrixWindow.xib */,
+				4E8922F41982277900A0DC64 /* MFDocument.xib */,
+				4ECFCE8F1AA5546200245B86 /* MFPrefs.xib */,
+				4EF236151A69FF4800FDB4D7 /* MFProgressWindow.xib */,
+				4E8120331B044F9B004A3F3E /* MFSearchController.xib */,
+				4E9B69861A42B31D001157D7 /* MFTreeBuilderController.xib */,
+				4E9B69601A3D72D7001157D7 /* MFTreeWindow.xib */,
+			);
+			name = Interfaces;
+			sourceTree = "<group>";
+		};
+		4E1799181A3535A600EF60F8 /* WindowControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4ECFCE891AA551B500245B86 /* DBPrefsWindowController.h */,
+				4ECFCE8A1AA551B500245B86 /* DBPrefsWindowController.m */,
+				4ECFCE971AAAABBB00245B86 /* MFAlignerController.h */,
+				4ECFCE981AAAABBB00245B86 /* MFAlignerController.m */,
+				4E9B697F1A4294EB001157D7 /* MFDistanceWindowController.h */,
+				4E9B69801A4294EB001157D7 /* MFDistanceWindowController.m */,
+				4ECFCE8C1AA551F200245B86 /* MFPrefsWindowController.h */,
+				4ECFCE8D1AA551F200245B86 /* MFPrefsWindowController.m */,
+				4EF236131A69FF4800FDB4D7 /* MFProgressController.h */,
+				4EF236141A69FF4800FDB4D7 /* MFProgressController.m */,
+				4E8120311B044F9B004A3F3E /* MFSearchController.h */,
+				4E8120321B044F9B004A3F3E /* MFSearchController.m */,
+				4E9B69841A42B31D001157D7 /* MFTreeBuilderController.h */,
+				4E9B69851A42B31D001157D7 /* MFTreeBuilderController.m */,
+				4E9B695E1A3D72D7001157D7 /* MFTreeWindowController.h */,
+				4E9B695F1A3D72D7001157D7 /* MFTreeWindowController.m */,
+				4EAA0DEE199204E1007FEE79 /* MFWindowController.h */,
+				4EAA0DEF199204E1007FEE79 /* MFWindowController.m */,
+			);
+			name = WindowControllers;
+			sourceTree = "<group>";
+		};
+		4E8922D31982277900A0DC64 = {
+			isa = PBXGroup;
+			children = (
+				4E8922E51982277900A0DC64 /* Seqotron */,
+				4E8923061982277900A0DC64 /* SeqotronTests */,
+				4E8922DE1982277900A0DC64 /* Frameworks */,
+				4E8922DD1982277900A0DC64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E8922DD1982277900A0DC64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E8922DC1982277900A0DC64 /* Seqotron.app */,
+				4E8923001982277900A0DC64 /* SeqotronTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E8922DE1982277900A0DC64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E8922DF1982277900A0DC64 /* Cocoa.framework */,
+				4E8923011982277900A0DC64 /* XCTest.framework */,
+				4E8922E11982277900A0DC64 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E8922E11982277900A0DC64 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E8922E21982277900A0DC64 /* AppKit.framework */,
+				4E8922E31982277900A0DC64 /* CoreData.framework */,
+				4E8922E41982277900A0DC64 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4E8922E51982277900A0DC64 /* Seqotron */ = {
+			isa = PBXGroup;
+			children = (
+				4ECFCEA31AAD29FF00245B86 /* bin */,
+				4E28172119F0C93400860621 /* Coloring */,
+				4E9B69631A3D72F8001157D7 /* Documents */,
+				4E1214C619EFA52200463E9B /* GeneticCodeTables */,
+				4E8922FA1982277900A0DC64 /* Images.xcassets */,
+				4EF044891A0C684700DB9C8E /* Importers */,
+				4E1214B619E1184400463E9B /* Interfaces */,
+				4EAA0DF419BFF03F007FEE79 /* MFAbstractSequencesView.h */,
+				4EAA0DF519BFF03F007FEE79 /* MFAbstractSequencesView.m */,
+				4E892318198227C200A0DC64 /* MFAppDelegate.h */,
+				4E892319198227C200A0DC64 /* MFAppDelegate.m */,
+				4ECFCE941AA674C700245B86 /* MFColorManager.h */,
+				4ECFCE951AA674C700245B86 /* MFColorManager.m */,
+				4E89231A198227C200A0DC64 /* MFDataType.h */,
+				4E89231B198227C200A0DC64 /* MFDataType.m */,
+				4E89231C198227C200A0DC64 /* MFDefines.h */,
+				4E9B696E1A401631001157D7 /* MFDocumentController.h */,
+				4E9B696F1A401631001157D7 /* MFDocumentController.m */,
+				4E92745C1A0C429200DA48F8 /* MFFileReader.h */,
+				4E92745D1A0C429200DA48F8 /* MFFileReader.m */,
+				4E89231D198227C200A0DC64 /* MFNamesView.h */,
+				4E89231E198227C200A0DC64 /* MFNamesView.m */,
+				4EF2361D1A6F598E00FDB4D7 /* MFNexusExporter.h */,
+				4EF2361E1A6F598E00FDB4D7 /* MFNexusExporter.m */,
+				4E89231F198227C200A0DC64 /* MFNucleotide.h */,
+				4E892320198227C200A0DC64 /* MFNucleotide.m */,
+				4E892323198227C200A0DC64 /* MFProtein.h */,
+				4E892324198227C200A0DC64 /* MFProtein.m */,
+				4E9274621A0C4DE400DA48F8 /* MFReaderCluster.h */,
+				4E9274631A0C4DE400DA48F8 /* MFReaderCluster.m */,
+				4E89233E198227E800A0DC64 /* MFRulerView.h */,
+				4E89233F198227E800A0DC64 /* MFRulerView.m */,
+				4E892325198227C200A0DC64 /* MFSequence.h */,
+				4E892326198227C200A0DC64 /* MFSequence.m */,
+				4EAA0DF1199238A5007FEE79 /* MFSequence+MFSequenceDrawing.h */,
+				4EAA0DF2199238A5007FEE79 /* MFSequence+MFSequenceDrawing.m */,
+				4EDDA2451A0854D0009970DB /* MFSequenceImporter.h */,
+				4E892327198227C200A0DC64 /* MFSequenceReader.h */,
+				4E892328198227C200A0DC64 /* MFSequenceReader.m */,
+				4E892329198227C200A0DC64 /* MFSequenceSet.h */,
+				4E89232A198227C200A0DC64 /* MFSequenceSet.m */,
+				4E89232B198227C200A0DC64 /* MFSequencesView.h */,
+				4E89232C198227C200A0DC64 /* MFSequencesView.m */,
+				4EDDA2401A00A90D009970DB /* MFSequenceUtils.h */,
+				4EDDA2411A00A90D009970DB /* MFSequenceUtils.m */,
+				4E89232D198227C200A0DC64 /* MFSequenceWriter.h */,
+				4E89232E198227C200A0DC64 /* MFSequenceWriter.m */,
+				4ECFCE911AA5BED600245B86 /* MFSimpleAlignmentView.h */,
+				4ECFCE921AA5BED600245B86 /* MFSimpleAlignmentView.m */,
+				4E892340198227E800A0DC64 /* MFString.h */,
+				4E892341198227E800A0DC64 /* MFString.m */,
+				4E9274651A0C525F00DA48F8 /* MFStringReader.h */,
+				4E9274661A0C525F00DA48F8 /* MFStringReader.m */,
+				4E89232F198227C200A0DC64 /* MFSyncronizedScrollView.h */,
+				4E892330198227C200A0DC64 /* MFSyncronizedScrollView.m */,
+				4EA0D7611A22F4EC0084E04C /* NSArray+IndexSetAddition.h */,
+				4EA0D7621A22F4EC0084E04C /* NSArray+IndexSetAddition.m */,
+				4E63B71F1AC2146A00643129 /* NSObject+TDBindings.h */,
+				4E63B7201AC2146A00643129 /* NSObject+TDBindings.m */,
+				4ECFCEAE1AAE704800245B86 /* Operations */,
+				4EE911C61A2EC3CF009A11D7 /* Phylogenetics */,
+				4E8922E61982277900A0DC64 /* Supporting Files */,
+				4E1799181A3535A600EF60F8 /* WindowControllers */,
+			);
+			path = Seqotron;
+			sourceTree = "<group>";
+		};
+		4E8922E61982277900A0DC64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E8922E71982277900A0DC64 /* Seqotron-Info.plist */,
+				4E8922E81982277900A0DC64 /* InfoPlist.strings */,
+				4E8922EB1982277900A0DC64 /* main.m */,
+				4E8922ED1982277900A0DC64 /* Seqotron-Prefix.pch */,
+				4E8922EE1982277900A0DC64 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E8923061982277900A0DC64 /* SeqotronTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E89230C1982277900A0DC64 /* SeqotronTests.m */,
+				4E8923071982277900A0DC64 /* Supporting Files */,
+			);
+			path = SeqotronTests;
+			sourceTree = "<group>";
+		};
+		4E8923071982277900A0DC64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E8923081982277900A0DC64 /* SeqotronTests-Info.plist */,
+				4E8923091982277900A0DC64 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E9B69631A3D72F8001157D7 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				4E8922F11982277900A0DC64 /* MFDocument.h */,
+				4E8922F21982277900A0DC64 /* MFDocument.m */,
+				4E9B69641A3D74AA001157D7 /* MFTreeDocument.h */,
+				4E9B69651A3D74AA001157D7 /* MFTreeDocument.m */,
+			);
+			name = Documents;
+			sourceTree = "<group>";
+		};
+		4ECFCEAE1AAE704800245B86 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				4ECFCE9C1AAC0F5100245B86 /* MFOperationBuilder.h */,
+				4EF236191A6A1CEB00FDB4D7 /* MFOperationDelegate.h */,
+				4E9B69561A37F637001157D7 /* MFDistanceMatrixOperation.h */,
+				4E9B69571A37F637001157D7 /* MFDistanceMatrixOperation.m */,
+				4EF236101A66728000FDB4D7 /* MFExternalOperation.h */,
+				4EF236111A66728000FDB4D7 /* MFExternalOperation.m */,
+				4ECFCEAB1AAE54B300245B86 /* MFOperation.h */,
+				4ECFCEAC1AAE54B300245B86 /* MFOperation.m */,
+				4ECFCEA51AAD473400245B86 /* MFOperationTransalign.h */,
+				4ECFCEA61AAD473400245B86 /* MFOperationTransalign.m */,
+			);
+			name = Operations;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4EE911C61A2EC3CF009A11D7 /* Phylogenetics */ = {
+			isa = PBXGroup;
+			children = (
+				4EF0448D1A0C853B00DB9C8E /* MFDistanceMatrix.h */,
+				4EF0448E1A0C853B00DB9C8E /* MFDistanceMatrix.m */,
+				4EE911D11A3153F7009A11D7 /* MFGraphic.h */,
+				4EE911D21A3153F7009A11D7 /* MFGraphic.m */,
+				4EE911CB1A3133D3009A11D7 /* MFJukeCantorDistanceMatrix.h */,
+				4EE911CC1A3133D3009A11D7 /* MFJukeCantorDistanceMatrix.m */,
+				4EE911CE1A31357E009A11D7 /* MFK2PDistanceMatrix.h */,
+				4EE911CF1A31357E009A11D7 /* MFK2PDistanceMatrix.m */,
+				4E8120361B057BE5004A3F3E /* MFK83DistanceMatrix.h */,
+				4E8120371B057BE5004A3F3E /* MFK83DistanceMatrix.m */,
+				4EE911D41A3156DC009A11D7 /* MFLineGraphic.h */,
+				4EE911D51A3156DC009A11D7 /* MFLineGraphic.m */,
+				4EE911C71A2EC4B4009A11D7 /* MFNeighborJoining.h */,
+				4EE911C81A2EC4B4009A11D7 /* MFNeighborJoining.m */,
+				4EF236201A6F6C0800FDB4D7 /* MFNewickExporter.h */,
+				4EF236211A6F6C0800FDB4D7 /* MFNewickExporter.m */,
+				4EF044901A0C8F4200DB9C8E /* MFNode.h */,
+				4EF044911A0C8F4200DB9C8E /* MFNode.m */,
+				4E62FC671A93107500CFD8D0 /* MFScaleBar.h */,
+				4E62FC681A93107600CFD8D0 /* MFScaleBar.m */,
+				4EE911D71A315E8C009A11D7 /* MFTextGraphic.h */,
+				4EE911D81A315E8C009A11D7 /* MFTextGraphic.m */,
+				4EF044931A0C901700DB9C8E /* MFTree.h */,
+				4EF044941A0C901700DB9C8E /* MFTree.m */,
+				4EF236231A6F6D9300FDB4D7 /* MFTreeExporter.h */,
+				4EF236241A6F6D9300FDB4D7 /* MFTreeExporter.m */,
+				4E9B69671A3D8D29001157D7 /* MFTreeImporter.h */,
+				4E9B696B1A3E9C1F001157D7 /* MFTreeReader.h */,
+				4E9B696C1A3E9C1F001157D7 /* MFTreeReader.m */,
+				4EF044981A11B1B900DB9C8E /* MFTreeView.h */,
+				4EF044991A11B1B900DB9C8E /* MFTreeView.m */,
+				4ECFCEB01AAE943C00245B86 /* MFTreeWriter.h */,
+				4ECFCEB11AAE943C00245B86 /* MFTreeWriter.m */,
+			);
+			name = Phylogenetics;
+			sourceTree = "<group>";
+		};
+		4EF044891A0C684700DB9C8E /* Importers */ = {
+			isa = PBXGroup;
+			children = (
+				4E9274681A0C64B000DA48F8 /* MFClustalImporter.h */,
+				4E9274691A0C64B000DA48F8 /* MFClustalImporter.m */,
+				4E92745F1A0C4A7300DA48F8 /* MFFASTAImporter.h */,
+				4E9274601A0C4A7300DA48F8 /* MFFASTAImporter.m */,
+				4EF044831A0C671B00DB9C8E /* MFGDEImporter.h */,
+				4EF044841A0C671B00DB9C8E /* MFGDEImporter.m */,
+				4EF044801A0C665D00DB9C8E /* MFMEGAImporter.h */,
+				4EF044811A0C665D00DB9C8E /* MFMEGAImporter.m */,
+				4EF044861A0C67AB00DB9C8E /* MFNBRFImporter.h */,
+				4EF044871A0C67AB00DB9C8E /* MFNBRFImporter.m */,
+				4E9B69681A3E982E001157D7 /* MFNewickImporter.h */,
+				4E9B69691A3E982E001157D7 /* MFNewickImporter.m */,
+				4EDDA2461A0855A7009970DB /* MFNexusImporter.h */,
+				4EDDA2471A0855A7009970DB /* MFNexusImporter.m */,
+				4EF0448A1A0C68BB00DB9C8E /* MFPhylipImporter.h */,
+				4EF0448B1A0C68BB00DB9C8E /* MFPhylipImporter.m */,
+				4EE911C51A2EB6EC009A11D7 /* MFStockholmImporter.h */,
+				4EE911C31A2EB6BD009A11D7 /* MFStockholmImporter.m */,
+			);
+			name = Importers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E8922DB1982277900A0DC64 /* Seqotron */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E8923101982277900A0DC64 /* Build configuration list for PBXNativeTarget "Seqotron" */;
+			buildPhases = (
+				4E8922D81982277900A0DC64 /* Sources */,
+				4E8922D91982277900A0DC64 /* Frameworks */,
+				4E8922DA1982277900A0DC64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Seqotron;
+			productName = Seqotron;
+			productReference = 4E8922DC1982277900A0DC64 /* Seqotron.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E8922FF1982277900A0DC64 /* SeqotronTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E8923131982277900A0DC64 /* Build configuration list for PBXNativeTarget "SeqotronTests" */;
+			buildPhases = (
+				4E8922FC1982277900A0DC64 /* Sources */,
+				4E8922FD1982277900A0DC64 /* Frameworks */,
+				4E8922FE1982277900A0DC64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E8923051982277900A0DC64 /* PBXTargetDependency */,
+			);
+			name = SeqotronTests;
+			productName = SeqotronTests;
+			productReference = 4E8923001982277900A0DC64 /* SeqotronTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E8922D41982277900A0DC64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "University of Sydney";
+				TargetAttributes = {
+					4E8922FF1982277900A0DC64 = {
+						TestTargetID = 4E8922DB1982277900A0DC64;
+					};
+				};
+			};
+			buildConfigurationList = 4E8922D71982277900A0DC64 /* Build configuration list for PBXProject "Seqotron" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E8922D31982277900A0DC64;
+			productRefGroup = 4E8922DD1982277900A0DC64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E8922DB1982277900A0DC64 /* Seqotron */,
+				4E8922FF1982277900A0DC64 /* SeqotronTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E8922DA1982277900A0DC64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E28172219F0C93400860621 /* Coloring in Resources */,
+				4E8922EA1982277900A0DC64 /* InfoPlist.strings in Resources */,
+				4EF236171A69FF4800FDB4D7 /* MFProgressWindow.xib in Resources */,
+				4ECFCE9B1AAAABF000245B86 /* MFAligner.xib in Resources */,
+				4E8120351B044F9B004A3F3E /* MFSearchController.xib in Resources */,
+				4E8922FB1982277900A0DC64 /* Images.xcassets in Resources */,
+				4E8922F61982277900A0DC64 /* MFDocument.xib in Resources */,
+				4E8922F01982277900A0DC64 /* Credits.rtf in Resources */,
+				4E9B69831A4294EB001157D7 /* MFDistanceMatrixWindow.xib in Resources */,
+				4E8922F91982277900A0DC64 /* MainMenu.xib in Resources */,
+				4ECFCE901AA5546200245B86 /* MFPrefs.xib in Resources */,
+				4E9B69881A42B31D001157D7 /* MFTreeBuilderController.xib in Resources */,
+				4ECFCEA41AAD29FF00245B86 /* bin in Resources */,
+				4E9B69621A3D72D7001157D7 /* MFTreeWindow.xib in Resources */,
+				4E1214C719EFA52200463E9B /* GeneticCodeTables in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8922FE1982277900A0DC64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E89230B1982277900A0DC64 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E8922D81982277900A0DC64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE911D01A31357E009A11D7 /* MFK2PDistanceMatrix.m in Sources */,
+				4EF236161A69FF4800FDB4D7 /* MFProgressController.m in Sources */,
+				4ECFCE961AA674C700245B86 /* MFColorManager.m in Sources */,
+				4E892342198227E800A0DC64 /* MFRulerView.m in Sources */,
+				4EA0D7631A22F4EC0084E04C /* NSArray+IndexSetAddition.m in Sources */,
+				4ECFCEAD1AAE54B300245B86 /* MFOperation.m in Sources */,
+				4E9B696D1A3E9C1F001157D7 /* MFTreeReader.m in Sources */,
+				4EAA0DF3199238A5007FEE79 /* MFSequence+MFSequenceDrawing.m in Sources */,
+				4ECFCEB21AAE943C00245B86 /* MFTreeWriter.m in Sources */,
+				4EF044951A0C901700DB9C8E /* MFTree.m in Sources */,
+				4EF236121A66728000FDB4D7 /* MFExternalOperation.m in Sources */,
+				4E9B69871A42B31D001157D7 /* MFTreeBuilderController.m in Sources */,
+				4E8922EC1982277900A0DC64 /* main.m in Sources */,
+				4EAA0DF0199204E1007FEE79 /* MFWindowController.m in Sources */,
+				4EE911C91A2EC4B4009A11D7 /* MFNeighborJoining.m in Sources */,
+				4ECFCE8E1AA551F200245B86 /* MFPrefsWindowController.m in Sources */,
+				4E892333198227C200A0DC64 /* MFDataType.m in Sources */,
+				4E9B69821A4294EB001157D7 /* MFDistanceWindowController.m in Sources */,
+				4E89233D198227C200A0DC64 /* MFSyncronizedScrollView.m in Sources */,
+				4E892343198227E800A0DC64 /* MFString.m in Sources */,
+				4E9274611A0C4A7300DA48F8 /* MFFASTAImporter.m in Sources */,
+				4E92746A1A0C64B000DA48F8 /* MFClustalImporter.m in Sources */,
+				4EE911D91A315E8C009A11D7 /* MFTextGraphic.m in Sources */,
+				4E892338198227C200A0DC64 /* MFSequence.m in Sources */,
+				4E89233C198227C200A0DC64 /* MFSequenceWriter.m in Sources */,
+				4EE911C41A2EB6BD009A11D7 /* MFStockholmImporter.m in Sources */,
+				4EAA0DF619BFF03F007FEE79 /* MFAbstractSequencesView.m in Sources */,
+				4EE911D61A3156DC009A11D7 /* MFLineGraphic.m in Sources */,
+				4EDDA2481A0855A7009970DB /* MFNexusImporter.m in Sources */,
+				4EF0448F1A0C853B00DB9C8E /* MFDistanceMatrix.m in Sources */,
+				4E892334198227C200A0DC64 /* MFNamesView.m in Sources */,
+				4EF236221A6F6C0800FDB4D7 /* MFNewickExporter.m in Sources */,
+				4EF044921A0C8F4200DB9C8E /* MFNode.m in Sources */,
+				4ECFCE8B1AA551B500245B86 /* DBPrefsWindowController.m in Sources */,
+				4EF044851A0C671B00DB9C8E /* MFGDEImporter.m in Sources */,
+				4EE911D31A3153F7009A11D7 /* MFGraphic.m in Sources */,
+				4E9B69701A401631001157D7 /* MFDocumentController.m in Sources */,
+				4E8120381B057BE5004A3F3E /* MFK83DistanceMatrix.m in Sources */,
+				4E892337198227C200A0DC64 /* MFProtein.m in Sources */,
+				4E892332198227C200A0DC64 /* MFAppDelegate.m in Sources */,
+				4ECFCE931AA5BED600245B86 /* MFSimpleAlignmentView.m in Sources */,
+				4E9B69661A3D74AA001157D7 /* MFTreeDocument.m in Sources */,
+				4E89233A198227C200A0DC64 /* MFSequenceSet.m in Sources */,
+				4E9B69581A37F637001157D7 /* MFDistanceMatrixOperation.m in Sources */,
+				4EF236251A6F6D9300FDB4D7 /* MFTreeExporter.m in Sources */,
+				4ECFCEA71AAD473400245B86 /* MFOperationTransalign.m in Sources */,
+				4E92745E1A0C429200DA48F8 /* MFFileReader.m in Sources */,
+				4ECFCE991AAAABBB00245B86 /* MFAlignerController.m in Sources */,
+				4E8922F31982277900A0DC64 /* MFDocument.m in Sources */,
+				4E9B69611A3D72D7001157D7 /* MFTreeWindowController.m in Sources */,
+				4E89233B198227C200A0DC64 /* MFSequencesView.m in Sources */,
+				4EF0449A1A11B1B900DB9C8E /* MFTreeView.m in Sources */,
+				4E63B7211AC2146A00643129 /* NSObject+TDBindings.m in Sources */,
+				4EF044881A0C67AB00DB9C8E /* MFNBRFImporter.m in Sources */,
+				4E62FC691A93107600CFD8D0 /* MFScaleBar.m in Sources */,
+				4EF044821A0C665D00DB9C8E /* MFMEGAImporter.m in Sources */,
+				4EF0448C1A0C68BB00DB9C8E /* MFPhylipImporter.m in Sources */,
+				4EE911CD1A3133D3009A11D7 /* MFJukeCantorDistanceMatrix.m in Sources */,
+				4E8120341B044F9B004A3F3E /* MFSearchController.m in Sources */,
+				4E9B696A1A3E982E001157D7 /* MFNewickImporter.m in Sources */,
+				4E892339198227C200A0DC64 /* MFSequenceReader.m in Sources */,
+				4E9274641A0C4DE400DA48F8 /* MFReaderCluster.m in Sources */,
+				4E9274671A0C525F00DA48F8 /* MFStringReader.m in Sources */,
+				4EF2361F1A6F598E00FDB4D7 /* MFNexusExporter.m in Sources */,
+				4E892335198227C200A0DC64 /* MFNucleotide.m in Sources */,
+				4EDDA2421A00A90D009970DB /* MFSequenceUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8922FC1982277900A0DC64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E89230D1982277900A0DC64 /* SeqotronTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E8923051982277900A0DC64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E8922DB1982277900A0DC64 /* Seqotron */;
+			targetProxy = 4E8923041982277900A0DC64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E8922E81982277900A0DC64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E8922E91982277900A0DC64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4E8922EE1982277900A0DC64 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E8922EF1982277900A0DC64 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4E8922F41982277900A0DC64 /* MFDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E8922F51982277900A0DC64 /* Base */,
+			);
+			name = MFDocument.xib;
+			sourceTree = "<group>";
+		};
+		4E8922F71982277900A0DC64 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E8922F81982277900A0DC64 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		4E8923091982277900A0DC64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E89230A1982277900A0DC64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E89230E1982277900A0DC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.9;
+			};
+			name = Debug;
+		};
+		4E89230F1982277900A0DC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.9;
+			};
+			name = Release;
+		};
+		4E8923111982277900A0DC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Seqotron/Seqotron-Prefix.pch";
+				INFOPLIST_FILE = "Seqotron/Seqotron-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4E8923121982277900A0DC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Seqotron/Seqotron-Prefix.pch";
+				INFOPLIST_FILE = "Seqotron/Seqotron-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4E8923141982277900A0DC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Seqotron.app/Contents/MacOS/Seqotron";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Seqotron/Seqotron-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SeqotronTests/SeqotronTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4E8923151982277900A0DC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Seqotron.app/Contents/MacOS/Seqotron";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Seqotron/Seqotron-Prefix.pch";
+				INFOPLIST_FILE = "SeqotronTests/SeqotronTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E8922D71982277900A0DC64 /* Build configuration list for PBXProject "Seqotron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E89230E1982277900A0DC64 /* Debug */,
+				4E89230F1982277900A0DC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E8923101982277900A0DC64 /* Build configuration list for PBXNativeTarget "Seqotron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8923111982277900A0DC64 /* Debug */,
+				4E8923121982277900A0DC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E8923131982277900A0DC64 /* Build configuration list for PBXNativeTarget "SeqotronTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8923141982277900A0DC64 /* Debug */,
+				4E8923151982277900A0DC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E8922D41982277900A0DC64 /* Project object */;
+}

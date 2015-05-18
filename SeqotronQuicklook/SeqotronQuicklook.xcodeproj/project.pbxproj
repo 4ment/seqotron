@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E0FB4B01AE4A8BB00FCDF82 /* MFReaderCluster.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0FB4AE1AE4A8BB00FCDF82 /* MFReaderCluster.h */; };
+		4E0FB4B11AE4A8BB00FCDF82 /* MFReaderCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FB4AF1AE4A8BB00FCDF82 /* MFReaderCluster.m */; };
+		4E0FB4B41AE4A90900FCDF82 /* MFString.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0FB4B21AE4A90900FCDF82 /* MFString.h */; };
+		4E0FB4B51AE4A90900FCDF82 /* MFString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FB4B31AE4A90900FCDF82 /* MFString.m */; };
+		4E0FB4BA1AE4C2AD00FCDF82 /* MFSequenceReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0FB4B61AE4C2AD00FCDF82 /* MFSequenceReader.h */; };
+		4E0FB4BB1AE4C2AD00FCDF82 /* MFSequenceReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FB4B71AE4C2AD00FCDF82 /* MFSequenceReader.m */; };
+		4E0FB4BC1AE4C2AD00FCDF82 /* MFSequenceSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0FB4B81AE4C2AD00FCDF82 /* MFSequenceSet.h */; };
+		4E0FB4BD1AE4C2AD00FCDF82 /* MFSequenceSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FB4B91AE4C2AD00FCDF82 /* MFSequenceSet.m */; };
+		4E0FB4C51AE4C65900FCDF82 /* MFMEGAImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0FB4BE1AE4C65900FCDF82 /* MFMEGAImporter.h */; };
+		4E0FB4C61AE4C65900FCDF82 /* MFMEGAImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FB4BF1AE4C65900FCDF82 /* MFMEGAImporter.m */; };
+		4E0FB4C71AE4C65900FCDF82 /* MFNBRFImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0FB4C01AE4C65900FCDF82 /* MFNBRFImporter.h */; };
+		4E0FB4C81AE4C65900FCDF82 /* MFNBRFImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FB4C11AE4C65900FCDF82 /* MFNBRFImporter.m */; };
+		4E0FB4C91AE4C65900FCDF82 /* MFNexusImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0FB4C21AE4C65900FCDF82 /* MFNexusImporter.h */; };
+		4E0FB4CA1AE4C65900FCDF82 /* MFNexusImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FB4C31AE4C65900FCDF82 /* MFNexusImporter.m */; };
+		4E0FB4CB1AE4C65900FCDF82 /* MFSequenceImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0FB4C41AE4C65900FCDF82 /* MFSequenceImporter.h */; };
+		4E0FB4E51AE4C7D300FCDF82 /* MFClustalImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0FB4CC1AE4C7D300FCDF82 /* MFClustalImporter.h */; };
+		4E0FB4E61AE4C7D300FCDF82 /* MFClustalImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FB4CD1AE4C7D300FCDF82 /* MFClustalImporter.m */; };
+		4E0FB4E71AE4C7D300FCDF82 /* MFDataType.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0FB4CE1AE4C7D300FCDF82 /* MFDataType.h */; };
+		4E0FB4E81AE4C7D300FCDF82 /* MFDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FB4CF1AE4C7D300FCDF82 /* MFDataType.m */; };
+		4E0FB4E91AE4C7D300FCDF82 /* MFFASTAImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0FB4D01AE4C7D300FCDF82 /* MFFASTAImporter.h */; };
+		4E0FB4EA1AE4C7D300FCDF82 /* MFFASTAImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FB4D11AE4C7D300FCDF82 /* MFFASTAImporter.m */; };
+		4E0FB4EB1AE4C7D300FCDF82 /* MFFileReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0FB4D21AE4C7D300FCDF82 /* MFFileReader.h */; };
+		4E0FB4EC1AE4C7D300FCDF82 /* MFFileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FB4D31AE4C7D300FCDF82 /* MFFileReader.m */; };
+		4E0FB4ED1AE4C7D300FCDF82 /* MFGDEImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0FB4D41AE4C7D300FCDF82 /* MFGDEImporter.h */; };
+		4E0FB4EE1AE4C7D300FCDF82 /* MFGDEImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FB4D51AE4C7D300FCDF82 /* MFGDEImporter.m */; };
+		4E0FB4EF1AE4C7D300FCDF82 /* MFNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0FB4D61AE4C7D300FCDF82 /* MFNode.h */; };
+		4E0FB4F01AE4C7D300FCDF82 /* MFNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FB4D71AE4C7D300FCDF82 /* MFNode.m */; };
+		4E0FB4F11AE4C7D300FCDF82 /* MFNucleotide.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0FB4D81AE4C7D300FCDF82 /* MFNucleotide.h */; };
+		4E0FB4F21AE4C7D300FCDF82 /* MFNucleotide.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FB4D91AE4C7D300FCDF82 /* MFNucleotide.m */; };
+		4E0FB4F31AE4C7D300FCDF82 /* MFPhylipImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0FB4DA1AE4C7D300FCDF82 /* MFPhylipImporter.h */; };
+		4E0FB4F41AE4C7D300FCDF82 /* MFPhylipImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FB4DB1AE4C7D300FCDF82 /* MFPhylipImporter.m */; };
+		4E0FB4F51AE4C7D300FCDF82 /* MFProtein.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0FB4DC1AE4C7D300FCDF82 /* MFProtein.h */; };
+		4E0FB4F61AE4C7D300FCDF82 /* MFProtein.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FB4DD1AE4C7D300FCDF82 /* MFProtein.m */; };
+		4E0FB4F71AE4C7D300FCDF82 /* MFSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0FB4DE1AE4C7D300FCDF82 /* MFSequence.h */; };
+		4E0FB4F81AE4C7D300FCDF82 /* MFSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FB4DF1AE4C7D300FCDF82 /* MFSequence.m */; };
+		4E0FB4F91AE4C7D300FCDF82 /* MFStockholmImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0FB4E01AE4C7D300FCDF82 /* MFStockholmImporter.h */; };
+		4E0FB4FA1AE4C7D300FCDF82 /* MFStockholmImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FB4E11AE4C7D300FCDF82 /* MFStockholmImporter.m */; };
+		4E0FB4FB1AE4C7D300FCDF82 /* MFStringReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0FB4E21AE4C7D300FCDF82 /* MFStringReader.h */; };
+		4E0FB4FC1AE4C7D300FCDF82 /* MFStringReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FB4E31AE4C7D300FCDF82 /* MFStringReader.m */; };
+		4E0FB4FD1AE4C7D300FCDF82 /* MFTreeImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0FB4E41AE4C7D300FCDF82 /* MFTreeImporter.h */; };
+		4E0FB5001AE4C84500FCDF82 /* MFTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0FB4FE1AE4C84500FCDF82 /* MFTree.h */; };
+		4E0FB5011AE4C84500FCDF82 /* MFTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FB4FF1AE4C84500FCDF82 /* MFTree.m */; };
+		4EE911B81A2D6777009A11D7 /* GenerateThumbnailForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 4EE911B71A2D6777009A11D7 /* GenerateThumbnailForURL.c */; };
+		4EE911BA1A2D6777009A11D7 /* GeneratePreviewForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE911B91A2D6777009A11D7 /* GeneratePreviewForURL.m */; };
+		4EE911BC1A2D6777009A11D7 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 4EE911BB1A2D6777009A11D7 /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E0FB4AE1AE4A8BB00FCDF82 /* MFReaderCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFReaderCluster.h; path = ../../Seqotron/MFReaderCluster.h; sourceTree = "<group>"; };
+		4E0FB4AF1AE4A8BB00FCDF82 /* MFReaderCluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MFReaderCluster.m; path = ../../Seqotron/MFReaderCluster.m; sourceTree = "<group>"; };
+		4E0FB4B21AE4A90900FCDF82 /* MFString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFString.h; path = ../../Seqotron/MFString.h; sourceTree = "<group>"; };
+		4E0FB4B31AE4A90900FCDF82 /* MFString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MFString.m; path = ../../Seqotron/MFString.m; sourceTree = "<group>"; };
+		4E0FB4B61AE4C2AD00FCDF82 /* MFSequenceReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFSequenceReader.h; path = ../../Seqotron/MFSequenceReader.h; sourceTree = "<group>"; };
+		4E0FB4B71AE4C2AD00FCDF82 /* MFSequenceReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MFSequenceReader.m; path = ../../Seqotron/MFSequenceReader.m; sourceTree = "<group>"; };
+		4E0FB4B81AE4C2AD00FCDF82 /* MFSequenceSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFSequenceSet.h; path = ../../Seqotron/MFSequenceSet.h; sourceTree = "<group>"; };
+		4E0FB4B91AE4C2AD00FCDF82 /* MFSequenceSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MFSequenceSet.m; path = ../../Seqotron/MFSequenceSet.m; sourceTree = "<group>"; };
+		4E0FB4BE1AE4C65900FCDF82 /* MFMEGAImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFMEGAImporter.h; path = ../../Seqotron/MFMEGAImporter.h; sourceTree = "<group>"; };
+		4E0FB4BF1AE4C65900FCDF82 /* MFMEGAImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MFMEGAImporter.m; path = ../../Seqotron/MFMEGAImporter.m; sourceTree = "<group>"; };
+		4E0FB4C01AE4C65900FCDF82 /* MFNBRFImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFNBRFImporter.h; path = ../../Seqotron/MFNBRFImporter.h; sourceTree = "<group>"; };
+		4E0FB4C11AE4C65900FCDF82 /* MFNBRFImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MFNBRFImporter.m; path = ../../Seqotron/MFNBRFImporter.m; sourceTree = "<group>"; };
+		4E0FB4C21AE4C65900FCDF82 /* MFNexusImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFNexusImporter.h; path = ../../Seqotron/MFNexusImporter.h; sourceTree = "<group>"; };
+		4E0FB4C31AE4C65900FCDF82 /* MFNexusImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MFNexusImporter.m; path = ../../Seqotron/MFNexusImporter.m; sourceTree = "<group>"; };
+		4E0FB4C41AE4C65900FCDF82 /* MFSequenceImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFSequenceImporter.h; path = ../../Seqotron/MFSequenceImporter.h; sourceTree = "<group>"; };
+		4E0FB4CC1AE4C7D300FCDF82 /* MFClustalImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFClustalImporter.h; path = ../../Seqotron/MFClustalImporter.h; sourceTree = "<group>"; };
+		4E0FB4CD1AE4C7D300FCDF82 /* MFClustalImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MFClustalImporter.m; path = ../../Seqotron/MFClustalImporter.m; sourceTree = "<group>"; };
+		4E0FB4CE1AE4C7D300FCDF82 /* MFDataType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFDataType.h; path = ../../Seqotron/MFDataType.h; sourceTree = "<group>"; };
+		4E0FB4CF1AE4C7D300FCDF82 /* MFDataType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MFDataType.m; path = ../../Seqotron/MFDataType.m; sourceTree = "<group>"; };
+		4E0FB4D01AE4C7D300FCDF82 /* MFFASTAImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFFASTAImporter.h; path = ../../Seqotron/MFFASTAImporter.h; sourceTree = "<group>"; };
+		4E0FB4D11AE4C7D300FCDF82 /* MFFASTAImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MFFASTAImporter.m; path = ../../Seqotron/MFFASTAImporter.m; sourceTree = "<group>"; };
+		4E0FB4D21AE4C7D300FCDF82 /* MFFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFFileReader.h; path = ../../Seqotron/MFFileReader.h; sourceTree = "<group>"; };
+		4E0FB4D31AE4C7D300FCDF82 /* MFFileReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MFFileReader.m; path = ../../Seqotron/MFFileReader.m; sourceTree = "<group>"; };
+		4E0FB4D41AE4C7D300FCDF82 /* MFGDEImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFGDEImporter.h; path = ../../Seqotron/MFGDEImporter.h; sourceTree = "<group>"; };
+		4E0FB4D51AE4C7D300FCDF82 /* MFGDEImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MFGDEImporter.m; path = ../../Seqotron/MFGDEImporter.m; sourceTree = "<group>"; };
+		4E0FB4D61AE4C7D300FCDF82 /* MFNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFNode.h; path = ../../Seqotron/MFNode.h; sourceTree = "<group>"; };
+		4E0FB4D71AE4C7D300FCDF82 /* MFNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MFNode.m; path = ../../Seqotron/MFNode.m; sourceTree = "<group>"; };
+		4E0FB4D81AE4C7D300FCDF82 /* MFNucleotide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFNucleotide.h; path = ../../Seqotron/MFNucleotide.h; sourceTree = "<group>"; };
+		4E0FB4D91AE4C7D300FCDF82 /* MFNucleotide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MFNucleotide.m; path = ../../Seqotron/MFNucleotide.m; sourceTree = "<group>"; };
+		4E0FB4DA1AE4C7D300FCDF82 /* MFPhylipImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFPhylipImporter.h; path = ../../Seqotron/MFPhylipImporter.h; sourceTree = "<group>"; };
+		4E0FB4DB1AE4C7D300FCDF82 /* MFPhylipImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MFPhylipImporter.m; path = ../../Seqotron/MFPhylipImporter.m; sourceTree = "<group>"; };
+		4E0FB4DC1AE4C7D300FCDF82 /* MFProtein.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFProtein.h; path = ../../Seqotron/MFProtein.h; sourceTree = "<group>"; };
+		4E0FB4DD1AE4C7D300FCDF82 /* MFProtein.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MFProtein.m; path = ../../Seqotron/MFProtein.m; sourceTree = "<group>"; };
+		4E0FB4DE1AE4C7D300FCDF82 /* MFSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFSequence.h; path = ../../Seqotron/MFSequence.h; sourceTree = "<group>"; };
+		4E0FB4DF1AE4C7D300FCDF82 /* MFSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MFSequence.m; path = ../../Seqotron/MFSequence.m; sourceTree = "<group>"; };
+		4E0FB4E01AE4C7D300FCDF82 /* MFStockholmImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFStockholmImporter.h; path = ../../Seqotron/MFStockholmImporter.h; sourceTree = "<group>"; };
+		4E0FB4E11AE4C7D300FCDF82 /* MFStockholmImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MFStockholmImporter.m; path = ../../Seqotron/MFStockholmImporter.m; sourceTree = "<group>"; };
+		4E0FB4E21AE4C7D300FCDF82 /* MFStringReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFStringReader.h; path = ../../Seqotron/MFStringReader.h; sourceTree = "<group>"; };
+		4E0FB4E31AE4C7D300FCDF82 /* MFStringReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MFStringReader.m; path = ../../Seqotron/MFStringReader.m; sourceTree = "<group>"; };
+		4E0FB4E41AE4C7D300FCDF82 /* MFTreeImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFTreeImporter.h; path = ../../Seqotron/MFTreeImporter.h; sourceTree = "<group>"; };
+		4E0FB4FE1AE4C84500FCDF82 /* MFTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MFTree.h; path = ../../Seqotron/MFTree.h; sourceTree = "<group>"; };
+		4E0FB4FF1AE4C84500FCDF82 /* MFTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MFTree.m; path = ../../Seqotron/MFTree.m; sourceTree = "<group>"; };
+		4EE911B21A2D6777009A11D7 /* SeqotronQuicklook.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeqotronQuicklook.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE911B61A2D6777009A11D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EE911B71A2D6777009A11D7 /* GenerateThumbnailForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GenerateThumbnailForURL.c; sourceTree = "<group>"; };
+		4EE911B91A2D6777009A11D7 /* GeneratePreviewForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneratePreviewForURL.m; sourceTree = "<group>"; };
+		4EE911BB1A2D6777009A11D7 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EE911AE1A2D6777009A11D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EE911A81A2D6776009A11D7 = {
+			isa = PBXGroup;
+			children = (
+				4EE911B41A2D6777009A11D7 /* SeqotronQuicklook */,
+				4EE911B31A2D6777009A11D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EE911B31A2D6777009A11D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EE911B21A2D6777009A11D7 /* SeqotronQuicklook.qlgenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EE911B41A2D6777009A11D7 /* SeqotronQuicklook */ = {
+			isa = PBXGroup;
+			children = (
+				4EE911B91A2D6777009A11D7 /* GeneratePreviewForURL.m */,
+				4EE911B71A2D6777009A11D7 /* GenerateThumbnailForURL.c */,
+				4EE911BB1A2D6777009A11D7 /* main.c */,
+				4E0FB4CC1AE4C7D300FCDF82 /* MFClustalImporter.h */,
+				4E0FB4CD1AE4C7D300FCDF82 /* MFClustalImporter.m */,
+				4E0FB4CE1AE4C7D300FCDF82 /* MFDataType.h */,
+				4E0FB4CF1AE4C7D300FCDF82 /* MFDataType.m */,
+				4E0FB4D01AE4C7D300FCDF82 /* MFFASTAImporter.h */,
+				4E0FB4D11AE4C7D300FCDF82 /* MFFASTAImporter.m */,
+				4E0FB4D21AE4C7D300FCDF82 /* MFFileReader.h */,
+				4E0FB4D31AE4C7D300FCDF82 /* MFFileReader.m */,
+				4E0FB4D41AE4C7D300FCDF82 /* MFGDEImporter.h */,
+				4E0FB4D51AE4C7D300FCDF82 /* MFGDEImporter.m */,
+				4E0FB4BE1AE4C65900FCDF82 /* MFMEGAImporter.h */,
+				4E0FB4BF1AE4C65900FCDF82 /* MFMEGAImporter.m */,
+				4E0FB4C01AE4C65900FCDF82 /* MFNBRFImporter.h */,
+				4E0FB4C11AE4C65900FCDF82 /* MFNBRFImporter.m */,
+				4E0FB4C21AE4C65900FCDF82 /* MFNexusImporter.h */,
+				4E0FB4C31AE4C65900FCDF82 /* MFNexusImporter.m */,
+				4E0FB4D61AE4C7D300FCDF82 /* MFNode.h */,
+				4E0FB4D71AE4C7D300FCDF82 /* MFNode.m */,
+				4E0FB4D81AE4C7D300FCDF82 /* MFNucleotide.h */,
+				4E0FB4D91AE4C7D300FCDF82 /* MFNucleotide.m */,
+				4E0FB4DA1AE4C7D300FCDF82 /* MFPhylipImporter.h */,
+				4E0FB4DB1AE4C7D300FCDF82 /* MFPhylipImporter.m */,
+				4E0FB4DC1AE4C7D300FCDF82 /* MFProtein.h */,
+				4E0FB4DD1AE4C7D300FCDF82 /* MFProtein.m */,
+				4E0FB4AE1AE4A8BB00FCDF82 /* MFReaderCluster.h */,
+				4E0FB4AF1AE4A8BB00FCDF82 /* MFReaderCluster.m */,
+				4E0FB4DE1AE4C7D300FCDF82 /* MFSequence.h */,
+				4E0FB4DF1AE4C7D300FCDF82 /* MFSequence.m */,
+				4E0FB4C41AE4C65900FCDF82 /* MFSequenceImporter.h */,
+				4E0FB4B61AE4C2AD00FCDF82 /* MFSequenceReader.h */,
+				4E0FB4FE1AE4C84500FCDF82 /* MFTree.h */,
+				4E0FB4FF1AE4C84500FCDF82 /* MFTree.m */,
+				4E0FB4B71AE4C2AD00FCDF82 /* MFSequenceReader.m */,
+				4E0FB4B81AE4C2AD00FCDF82 /* MFSequenceSet.h */,
+				4E0FB4B91AE4C2AD00FCDF82 /* MFSequenceSet.m */,
+				4E0FB4E01AE4C7D300FCDF82 /* MFStockholmImporter.h */,
+				4E0FB4E11AE4C7D300FCDF82 /* MFStockholmImporter.m */,
+				4E0FB4B21AE4A90900FCDF82 /* MFString.h */,
+				4E0FB4B31AE4A90900FCDF82 /* MFString.m */,
+				4E0FB4E21AE4C7D300FCDF82 /* MFStringReader.h */,
+				4E0FB4E31AE4C7D300FCDF82 /* MFStringReader.m */,
+				4E0FB4E41AE4C7D300FCDF82 /* MFTreeImporter.h */,
+				4EE911B51A2D6777009A11D7 /* Supporting Files */,
+			);
+			path = SeqotronQuicklook;
+			sourceTree = "<group>";
+		};
+		4EE911B51A2D6777009A11D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EE911B61A2D6777009A11D7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4EE911AF1A2D6777009A11D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E0FB4F71AE4C7D300FCDF82 /* MFSequence.h in Headers */,
+				4E0FB4CB1AE4C65900FCDF82 /* MFSequenceImporter.h in Headers */,
+				4E0FB4E71AE4C7D300FCDF82 /* MFDataType.h in Headers */,
+				4E0FB4C51AE4C65900FCDF82 /* MFMEGAImporter.h in Headers */,
+				4E0FB4F91AE4C7D300FCDF82 /* MFStockholmImporter.h in Headers */,
+				4E0FB5001AE4C84500FCDF82 /* MFTree.h in Headers */,
+				4E0FB4F31AE4C7D300FCDF82 /* MFPhylipImporter.h in Headers */,
+				4E0FB4FD1AE4C7D300FCDF82 /* MFTreeImporter.h in Headers */,
+				4E0FB4B41AE4A90900FCDF82 /* MFString.h in Headers */,
+				4E0FB4E91AE4C7D300FCDF82 /* MFFASTAImporter.h in Headers */,
+				4E0FB4F11AE4C7D300FCDF82 /* MFNucleotide.h in Headers */,
+				4E0FB4BC1AE4C2AD00FCDF82 /* MFSequenceSet.h in Headers */,
+				4E0FB4E51AE4C7D300FCDF82 /* MFClustalImporter.h in Headers */,
+				4E0FB4C71AE4C65900FCDF82 /* MFNBRFImporter.h in Headers */,
+				4E0FB4B01AE4A8BB00FCDF82 /* MFReaderCluster.h in Headers */,
+				4E0FB4ED1AE4C7D300FCDF82 /* MFGDEImporter.h in Headers */,
+				4E0FB4C91AE4C65900FCDF82 /* MFNexusImporter.h in Headers */,
+				4E0FB4F51AE4C7D300FCDF82 /* MFProtein.h in Headers */,
+				4E0FB4EF1AE4C7D300FCDF82 /* MFNode.h in Headers */,
+				4E0FB4EB1AE4C7D300FCDF82 /* MFFileReader.h in Headers */,
+				4E0FB4BA1AE4C2AD00FCDF82 /* MFSequenceReader.h in Headers */,
+				4E0FB4FB1AE4C7D300FCDF82 /* MFStringReader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4EE911B11A2D6777009A11D7 /* SeqotronQuicklook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EE911BF1A2D6777009A11D7 /* Build configuration list for PBXNativeTarget "SeqotronQuicklook" */;
+			buildPhases = (
+				4EE911AD1A2D6777009A11D7 /* Sources */,
+				4EE911AE1A2D6777009A11D7 /* Frameworks */,
+				4EE911AF1A2D6777009A11D7 /* Headers */,
+				4EE911B01A2D6777009A11D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeqotronQuicklook;
+			productName = SeqotronQuicklook;
+			productReference = 4EE911B21A2D6777009A11D7 /* SeqotronQuicklook.qlgenerator */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EE911A91A2D6777009A11D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "University of Sydney";
+				TargetAttributes = {
+					4EE911B11A2D6777009A11D7 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 4EE911AC1A2D6777009A11D7 /* Build configuration list for PBXProject "SeqotronQuicklook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4EE911A81A2D6776009A11D7;
+			productRefGroup = 4EE911B31A2D6777009A11D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EE911B11A2D6777009A11D7 /* SeqotronQuicklook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EE911B01A2D6777009A11D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EE911AD1A2D6777009A11D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E0FB4F21AE4C7D300FCDF82 /* MFNucleotide.m in Sources */,
+				4E0FB4CA1AE4C65900FCDF82 /* MFNexusImporter.m in Sources */,
+				4E0FB4BB1AE4C2AD00FCDF82 /* MFSequenceReader.m in Sources */,
+				4E0FB4F81AE4C7D300FCDF82 /* MFSequence.m in Sources */,
+				4E0FB4C81AE4C65900FCDF82 /* MFNBRFImporter.m in Sources */,
+				4E0FB4E61AE4C7D300FCDF82 /* MFClustalImporter.m in Sources */,
+				4E0FB4B11AE4A8BB00FCDF82 /* MFReaderCluster.m in Sources */,
+				4E0FB4EE1AE4C7D300FCDF82 /* MFGDEImporter.m in Sources */,
+				4E0FB4FC1AE4C7D300FCDF82 /* MFStringReader.m in Sources */,
+				4E0FB4EC1AE4C7D300FCDF82 /* MFFileReader.m in Sources */,
+				4E0FB4FA1AE4C7D300FCDF82 /* MFStockholmImporter.m in Sources */,
+				4E0FB4C61AE4C65900FCDF82 /* MFMEGAImporter.m in Sources */,
+				4EE911B81A2D6777009A11D7 /* GenerateThumbnailForURL.c in Sources */,
+				4E0FB4F41AE4C7D300FCDF82 /* MFPhylipImporter.m in Sources */,
+				4E0FB4BD1AE4C2AD00FCDF82 /* MFSequenceSet.m in Sources */,
+				4EE911BA1A2D6777009A11D7 /* GeneratePreviewForURL.m in Sources */,
+				4E0FB4B51AE4A90900FCDF82 /* MFString.m in Sources */,
+				4E0FB4F01AE4C7D300FCDF82 /* MFNode.m in Sources */,
+				4E0FB4F61AE4C7D300FCDF82 /* MFProtein.m in Sources */,
+				4E0FB5011AE4C84500FCDF82 /* MFTree.m in Sources */,
+				4E0FB4E81AE4C7D300FCDF82 /* MFDataType.m in Sources */,
+				4E0FB4EA1AE4C7D300FCDF82 /* MFFASTAImporter.m in Sources */,
+				4EE911BC1A2D6777009A11D7 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4EE911BD1A2D6777009A11D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4EE911BE1A2D6777009A11D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4EE911C01A2D6777009A11D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SeqotronQuicklook/Info.plist;
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Debug;
+		};
+		4EE911C11A2D6777009A11D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SeqotronQuicklook/Info.plist;
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EE911AC1A2D6777009A11D7 /* Build configuration list for PBXProject "SeqotronQuicklook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE911BD1A2D6777009A11D7 /* Debug */,
+				4EE911BE1A2D6777009A11D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EE911BF1A2D6777009A11D7 /* Build configuration list for PBXNativeTarget "SeqotronQuicklook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE911C01A2D6777009A11D7 /* Debug */,
+				4EE911C11A2D6777009A11D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EE911A91A2D6777009A11D7 /* Project object */;
+}

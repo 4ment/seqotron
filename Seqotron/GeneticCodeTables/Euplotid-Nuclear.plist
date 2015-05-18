@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Euplotid Nuclear</string>
+	<key>Table</key>
+	<dict>
+
+<key>TTT</key>
+			<dict>
+			<key>OLC</key>
+			<string>F</string>
+			<key>Name</key>
+			<string>Phenylalanine</string>
+			<key>TLC</key>
+			<string>Phe</string>
+</dict>
+<key>TCT</key>
+			<dict>
+			<key>OLC</key>
+			<string>S</string>
+			<key>Name</key>
+			<string>Serine</string>
+			<key>TLC</key>
+			<string>Ser</string>
+</dict>
+<key>TAT</key>
+			<dict>
+			<key>OLC</key>
+			<string>Y</string>
+			<key>Name</key>
+			<string>Tyrosine</string>
+			<key>TLC</key>
+			<string>Tyr</string>
+</dict>
+<key>TGT</key>
+			<dict>
+			<key>OLC</key>
+			<string>C</string>
+			<key>Name</key>
+			<string>Cysteine</string>
+			<key>TLC</key>
+			<string>Cys</string>
+</dict>
+<key>TTC</key>
+			<dict>
+			<key>OLC</key>
+			<string>F</string>
+			<key>Name</key>
+			<string>Phenylalanine</string>
+			<key>TLC</key>
+			<string>Phe</string>
+</dict>
+<key>TCC</key>
+			<dict>
+			<key>OLC</key>
+			<string>S</string>
+			<key>Name</key>
+			<string>Serine</string>
+			<key>TLC</key>
+			<string>Ser</string>
+</dict>
+<key>TAC</key>
+			<dict>
+			<key>OLC</key>
+			<string>Y</string>
+			<key>Name</key>
+			<string>Tyrosine</string>
+			<key>TLC</key>
+			<string>Tyr</string>
+</dict>
+<key>TGC</key>
+			<dict>
+			<key>OLC</key>
+			<string>C</string>
+			<key>Name</key>
+			<string>Cysteine</string>
+			<key>TLC</key>
+			<string>Cys</string>
+</dict>
+<key>TTA</key>
+			<dict>
+			<key>OLC</key>
+			<string>L</string>
+			<key>Name</key>
+			<string>Leucine</string>
+			<key>TLC</key>
+			<string>Leu</string>
+</dict>
+<key>TCA</key>
+			<dict>
+			<key>OLC</key>
+			<string>S</string>
+			<key>Name</key>
+			<string>Serine</string>
+			<key>TLC</key>
+			<string>Ser</string>
+</dict>
+<key>TAA</key>
+			<dict>
+			<key>OLC</key>
+			<string>*</string>
+			<key>Name</key>
+			<string>termination codon</string>
+			<key>TLC</key>
+			<string>Ter</string>
+</dict>
+<key>TGA</key>
+			<dict>
+			<key>OLC</key>
+			<string>C</string>
+			<key>Name</key>
+			<string>Cysteine</string>
+			<key>TLC</key>
+			<string>Cys</string>
+</dict>
+<key>TTG</key>
+			<dict>
+			<key>OLC</key>
+			<string>L</string>
+			<key>Name</key>
+			<string>Leucine</string>
+			<key>TLC</key>
+			<string>Leu</string>
+</dict>
+<key>TCG</key>
+			<dict>
+			<key>OLC</key>
+			<string>S</string>
+			<key>Name</key>
+			<string>Serine</string>
+			<key>TLC</key>
+			<string>Ser</string>
+</dict>
+<key>TAG</key>
+			<dict>
+			<key>OLC</key>
+			<string>*</string>
+			<key>Name</key>
+			<string>termination codon</string>
+			<key>TLC</key>
+			<string>Ter</string>
+</dict>
+<key>TGG</key>
+			<dict>
+			<key>OLC</key>
+			<string>W</string>
+			<key>Name</key>
+			<string>Tryptophan</string>
+			<key>TLC</key>
+			<string>Trp</string>
+</dict>
+<key>CTT</key>
+			<dict>
+			<key>OLC</key>
+			<string>L</string>
+			<key>Name</key>
+			<string>Leucine</string>
+			<key>TLC</key>
+			<string>Leu</string>
+</dict>
+<key>CCT</key>
+			<dict>
+			<key>OLC</key>
+			<string>P</string>
+			<key>Name</key>
+			<string>Proline</string>
+			<key>TLC</key>
+			<string>Pro</string>
+</dict>
+<key>CAT</key>
+			<dict>
+			<key>OLC</key>
+			<string>H</string>
+			<key>Name</key>
+			<string>Histidine</string>
+			<key>TLC</key>
+			<string>His</string>
+</dict>
+<key>CGT</key>
+			<dict>
+			<key>OLC</key>
+			<string>R</string>
+			<key>Name</key>
+			<string>Arginine</string>
+			<key>TLC</key>
+			<string>Arg</string>
+</dict>
+<key>CTC</key>
+			<dict>
+			<key>OLC</key>
+			<string>L</string>
+			<key>Name</key>
+			<string>Leucine</string>
+			<key>TLC</key>
+			<string>Leu</string>
+</dict>
+<key>CCC</key>
+			<dict>
+			<key>OLC</key>
+			<string>P</string>
+			<key>Name</key>
+			<string>Proline</string>
+			<key>TLC</key>
+			<string>Pro</string>
+</dict>
+<key>CAC</key>
+			<dict>
+			<key>OLC</key>
+			<string>H</string>
+			<key>Name</key>
+			<string>Histidine</string>
+			<key>TLC</key>
+			<string>His</string>
+</dict>
+<key>CGC</key>
+			<dict>
+			<key>OLC</key>
+			<string>R</string>
+			<key>Name</key>
+			<string>Arginine</string>
+			<key>TLC</key>
+			<string>Arg</string>
+</dict>
+<key>CTA</key>
+			<dict>
+			<key>OLC</key>
+			<string>L</string>
+			<key>Name</key>
+			<string>Leucine</string>
+			<key>TLC</key>
+			<string>Leu</string>
+</dict>
+<key>CCA</key>
+			<dict>
+			<key>OLC</key>
+			<string>P</string>
+			<key>Name</key>
+			<string>Proline</string>
+			<key>TLC</key>
+			<string>Pro</string>
+</dict>
+<key>CAA</key>
+			<dict>
+			<key>OLC</key>
+			<string>Q</string>
+			<key>Name</key>
+			<string>Glutamine</string>
+			<key>TLC</key>
+			<string>Gln</string>
+</dict>
+<key>CGA</key>
+			<dict>
+			<key>OLC</key>
+			<string>R</string>
+			<key>Name</key>
+			<string>Arginine</string>
+			<key>TLC</key>
+			<string>Arg</string>
+</dict>
+<key>CTG</key>
+			<dict>
+			<key>OLC</key>
+			<string>L</string>
+			<key>Name</key>
+			<string>Leucine</string>
+			<key>TLC</key>
+			<string>Leu</string>
+</dict>
+<key>CCG</key>
+			<dict>
+			<key>OLC</key>
+			<string>P</string>
+			<key>Name</key>
+			<string>Proline</string>
+			<key>TLC</key>
+			<string>Pro</string>
+</dict>
+<key>CAG</key>
+			<dict>
+			<key>OLC</key>
+			<string>Q</string>
+			<key>Name</key>
+			<string>Glutamine</string>
+			<key>TLC</key>
+			<string>Gln</string>
+</dict>
+<key>CGG</key>
+			<dict>
+			<key>OLC</key>
+			<string>R</string>
+			<key>Name</key>
+			<string>Arginine</string>
+			<key>TLC</key>
+			<string>Arg</string>
+</dict>
+<key>ATT</key>
+			<dict>
+			<key>OLC</key>
+			<string>I</string>
+			<key>Name</key>
+			<string>Isoleucine</string>
+			<key>TLC</key>
+			<string>Ile</string>
+</dict>
+<key>ACT</key>
+			<dict>
+			<key>OLC</key>
+			<string>T</string>
+			<key>Name</key>
+			<string>Threonine</string>
+			<key>TLC</key>
+			<string>Thr</string>
+</dict>
+<key>AAT</key>
+			<dict>
+			<key>OLC</key>
+			<string>N</string>
+			<key>Name</key>
+			<string>Asparagine</string>
+			<key>TLC</key>
+			<string>Asn</string>
+</dict>
+<key>AGT</key>
+			<dict>
+			<key>OLC</key>
+			<string>S</string>
+			<key>Name</key>
+			<string>Serine</string>
+			<key>TLC</key>
+			<string>Ser</string>
+</dict>
+<key>ATC</key>
+			<dict>
+			<key>OLC</key>
+			<string>I</string>
+			<key>Name</key>
+			<string>Isoleucine</string>
+			<key>TLC</key>
+			<string>Ile</string>
+</dict>
+<key>ACC</key>
+			<dict>
+			<key>OLC</key>
+			<string>T</string>
+			<key>Name</key>
+			<string>Threonine</string>
+			<key>TLC</key>
+			<string>Thr</string>
+</dict>
+<key>AAC</key>
+			<dict>
+			<key>OLC</key>
+			<string>N</string>
+			<key>Name</key>
+			<string>Asparagine</string>
+			<key>TLC</key>
+			<string>Asn</string>
+</dict>
+<key>AGC</key>
+			<dict>
+			<key>OLC</key>
+			<string>S</string>
+			<key>Name</key>
+			<string>Serine</string>
+			<key>TLC</key>
+			<string>Ser</string>
+</dict>
+<key>ATA</key>
+			<dict>
+			<key>OLC</key>
+			<string>I</string>
+			<key>Name</key>
+			<string>Isoleucine</string>
+			<key>TLC</key>
+			<string>Ile</string>
+</dict>
+<key>ACA</key>
+			<dict>
+			<key>OLC</key>
+			<string>T</string>
+			<key>Name</key>
+			<string>Threonine</string>
+			<key>TLC</key>
+			<string>Thr</string>
+</dict>
+<key>AAA</key>
+			<dict>
+			<key>OLC</key>
+			<string>K</string>
+			<key>Name</key>
+			<string>Lysine</string>
+			<key>TLC</key>
+			<string>Lys</string>
+</dict>
+<key>AGA</key>
+			<dict>
+			<key>OLC</key>
+			<string>R</string>
+			<key>Name</key>
+			<string>Arginine</string>
+			<key>TLC</key>
+			<string>Arg</string>
+</dict>
+<key>ATG</key>
+			<dict>
+			<key>OLC</key>
+			<string>M</string>
+			<key>Name</key>
+			<string>Methionine</string>
+			<key>TLC</key>
+			<string>Met</string>
+</dict>
+<key>ACG</key>
+			<dict>
+			<key>OLC</key>
+			<string>T</string>
+			<key>Name</key>
+			<string>Threonine</string>
+			<key>TLC</key>
+			<string>Thr</string>
+</dict>
+<key>AAG</key>
+			<dict>
+			<key>OLC</key>
+			<string>K</string>
+			<key>Name</key>
+			<string>Lysine</string>
+			<key>TLC</key>
+			<string>Lys</string>
+</dict>
+<key>AGG</key>
+			<dict>
+			<key>OLC</key>
+			<string>R</string>
+			<key>Name</key>
+			<string>Arginine</string>
+			<key>TLC</key>
+			<string>Arg</string>
+</dict>
+<key>GTT</key>
+			<dict>
+			<key>OLC</key>
+			<string>V</string>
+			<key>Name</key>
+			<string>Valine</string>
+			<key>TLC</key>
+			<string>Val</string>
+</dict>
+<key>GCT</key>
+			<dict>
+			<key>OLC</key>
+			<string>A</string>
+			<key>Name</key>
+			<string>Alanine</string>
+			<key>TLC</key>
+			<string>Ala</string>
+</dict>
+<key>GAT</key>
+			<dict>
+			<key>OLC</key>
+			<string>D</string>
+			<key>Name</key>
+			<string>Aspartate</string>
+			<key>TLC</key>
+			<string>Asp</string>
+<key>Alt</key>
+<string>Aspartic acid</string>
+</dict>
+<key>GGT</key>
+			<dict>
+			<key>OLC</key>
+			<string>G</string>
+			<key>Name</key>
+			<string>Glycine</string>
+			<key>TLC</key>
+			<string>Gly</string>
+</dict>
+<key>GTC</key>
+			<dict>
+			<key>OLC</key>
+			<string>V</string>
+			<key>Name</key>
+			<string>Valine</string>
+			<key>TLC</key>
+			<string>Val</string>
+</dict>
+<key>GCC</key>
+			<dict>
+			<key>OLC</key>
+			<string>A</string>
+			<key>Name</key>
+			<string>Alanine</string>
+			<key>TLC</key>
+			<string>Ala</string>
+</dict>
+<key>GAC</key>
+			<dict>
+			<key>OLC</key>
+			<string>D</string>
+			<key>Name</key>
+			<string>Aspartate</string>
+			<key>TLC</key>
+			<string>Asp</string>
+<key>Alt</key>
+<string>Aspartic acid</string>
+</dict>
+<key>GGC</key>
+			<dict>
+			<key>OLC</key>
+			<string>G</string>
+			<key>Name</key>
+			<string>Glycine</string>
+			<key>TLC</key>
+			<string>Gly</string>
+</dict>
+<key>GTA</key>
+			<dict>
+			<key>OLC</key>
+			<string>V</string>
+			<key>Name</key>
+			<string>Valine</string>
+			<key>TLC</key>
+			<string>Val</string>
+</dict>
+<key>GCA</key>
+			<dict>
+			<key>OLC</key>
+			<string>A</string>
+			<key>Name</key>
+			<string>Alanine</string>
+			<key>TLC</key>
+			<string>Ala</string>
+</dict>
+<key>GAA</key>
+			<dict>
+			<key>OLC</key>
+			<string>E</string>
+			<key>Name</key>
+			<string>Glutamate</string>
+			<key>TLC</key>
+			<string>Glu</string>
+<key>Alt</key>
+<string>Glutamic acid</string>
+</dict>
+<key>GGA</key>
+			<dict>
+			<key>OLC</key>
+			<string>G</string>
+			<key>Name</key>
+			<string>Glycine</string>
+			<key>TLC</key>
+			<string>Gly</string>
+</dict>
+<key>GTG</key>
+			<dict>
+			<key>OLC</key>
+			<string>V</string>
+			<key>Name</key>
+			<string>Valine</string>
+			<key>TLC</key>
+			<string>Val</string>
+</dict>
+<key>GCG</key>
+			<dict>
+			<key>OLC</key>
+			<string>A</string>
+			<key>Name</key>
+			<string>Alanine</string>
+			<key>TLC</key>
+			<string>Ala</string>
+</dict>
+<key>GAG</key>
+			<dict>
+			<key>OLC</key>
+			<string>E</string>
+			<key>Name</key>
+			<string>Glutamate</string>
+			<key>TLC</key>
+			<string>Glu</string>
+<key>Alt</key>
+<string>Glutamic acid</string>
+</dict>
+<key>GGG</key>
+			<dict>
+			<key>OLC</key>
+			<string>G</string>
+			<key>Name</key>
+			<string>Glycine</string>
+			<key>TLC</key>
+			<string>Gly</string>
+</dict>
+</dict>
+</dict>
+</plist>
