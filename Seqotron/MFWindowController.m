@@ -2207,7 +2207,7 @@
 //    else {
         if( [[_sequencesController arrangedObjects] count] > 3 ){
             if( !_treeBuilderController ){
-                _treeBuilderController = [[MFTreeBuilderController alloc]initWithSequences:[_sequencesController arrangedObjects] withName:[[[self document]fileURL]lastPathComponent]];
+                _treeBuilderController = [[MFTreeBuilderController alloc]initWithSequences:[_sequencesController arrangedObjects] withName:[[self document]displayName]];
             }
             [_treeBuilderController initType];
             [NSApp beginSheet: _treeBuilderController.window
@@ -2238,7 +2238,7 @@
 //    else {
         if( [[_sequencesController arrangedObjects] count] > 1 ){
             if( !_alignerController ){
-                _alignerController = [[MFAlignerController alloc]initWithSequences:[_sequencesController arrangedObjects] withName:[[[self document]fileURL]lastPathComponent]];
+                _alignerController = [[MFAlignerController alloc]initWithSequences:[_sequencesController arrangedObjects] withName:[[self document]displayName]];
             }
             _alignerController.transalignEnabled = [[[[_sequencesController arrangedObjects] objectAtIndex:0] dataType ]  isKindOfClass:[MFNucleotide class]] && ![[[_sequencesController arrangedObjects] objectAtIndex:0] translated];
             //[_alignerController setSelection: _sequencesView.rangeSelection];
