@@ -7,7 +7,7 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="MFProgressController">
             <connections>
-                <outlet property="_progressIndicator" destination="q8U-f2-Q1N" id="kk3-6p-Vnt"/>
+                <outlet property="progressIndicator" destination="q8U-f2-Q1N" id="ePt-d9-xKh"/>
                 <outlet property="window" destination="F0z-JX-Cv5" id="gIp-Ho-8D9"/>
             </connections>
         </customObject>
