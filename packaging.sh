@@ -12,7 +12,7 @@ APP_DIR="DerivedData/Seqotron/Build/Products/Release"
 
  
 # you should not need to change these
-APP_EXE="${APP_DIR}/${APP_NAME}.app/Contents/MacOS/${APP_NAME}"
+APP_EXE="${APP_NAME}.app/Contents/MacOS/${APP_NAME}"
  
 VOL_NAME="${APP_NAME} ${VERSION}"   # volume name will be "SuperCoolApp 1.0.0"
 DMG_TMP="${VOL_NAME}-temp.dmg"
@@ -45,7 +45,7 @@ cp -rpf "${APP_DIR}/${APP_NAME}.app" "${STAGING_DIR}"
 # ... cp anything else you want in the DMG - documentation, etc.
  
 pushd "${STAGING_DIR}"
- 
+
 # remove symbol table from the executable
 echo "Stripping ${APP_EXE}..."
 strip -u -r "${APP_EXE}"
@@ -118,9 +118,6 @@ if [ -z "$DMG_BACKGROUND_IMG" ]; then
 	   end tell
 	' | osascript
 else
-	mkdir /Volumes/"${VOL_NAME}"/.background
-	cp "${DMG_BACKGROUND_IMG}" /Volumes/"${VOL_NAME}"/.background/
-
 	# tell the Finder to resize the window, set the background,
 	#  change the icon size, place the icons in the right position, etc.
 	echo '
