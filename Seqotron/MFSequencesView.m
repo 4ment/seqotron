@@ -834,9 +834,9 @@ NSString *MFTranslationDidChangeNotification = @"MFTranslationDidChange";
         _fakeDeletionRange = NSMakeRange(0, 0);
         [delegate sequencesView:self removeSitesInRange:temp inSequenceRange:_rangeSelection.y];
     }
-    else {
-        NSArray *unselectedSequences = [self unselectedSequencesInRangeSelection];
-        if( [MFSequenceUtils isEmptyBlockAtTheEnd:unselectedSequences inRange:_rangeSelection.x ] ) _rangeSelection = MFMakeEmpty2DRange();
+    // An empty block at the end of the alignment is selected and that is not allowed
+    else if( [MFSequenceUtils isEmptyBlockAtTheEnd:[[self sequences]subarrayWithRange:_rangeSelection.y ] inRange:_rangeSelection.x ] ){
+        _rangeSelection = MFMakeEmpty2DRange();
     }
 
     draggedRight = NO;
