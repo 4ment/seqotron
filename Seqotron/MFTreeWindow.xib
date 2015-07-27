@@ -122,14 +122,14 @@
                             </connections>
                         </searchField>
                     </toolbarItem>
-                    <toolbarItem implicitItemIdentifier="3D345ECC-4EA8-4112-BFDD-A7789EA22C95" label="Show" paletteLabel="Show" image="F0F83BD3-A298-4D52-886D-E04C78226066" id="J1R-sK-uLE">
+                    <toolbarItem implicitItemIdentifier="3D345ECC-4EA8-4112-BFDD-A7789EA22C95" label="Show" paletteLabel="Show" image="A656BDE2-9257-4E8F-B931-B58FE21E8386" id="J1R-sK-uLE">
                         <nil key="toolTip"/>
                         <size key="minSize" width="61" height="18"/>
                         <size key="maxSize" width="61" height="18"/>
                         <button key="view" id="7hM-ux-GmS">
                             <rect key="frame" x="0.0" y="0.0" width="61" height="18"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                            <buttonCell key="cell" type="bevel" title="Taxa" bezelStyle="regularSquare" image="F0F83BD3-A298-4D52-886D-E04C78226066" imagePosition="left" state="on" inset="2" id="Hze-lg-0aR">
+                            <buttonCell key="cell" type="bevel" title="Taxa" bezelStyle="regularSquare" image="A656BDE2-9257-4E8F-B931-B58FE21E8386" imagePosition="left" state="on" inset="2" id="Hze-lg-0aR">
                                 <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                 <font key="font" metaFont="system"/>
                             </buttonCell>
@@ -221,7 +221,7 @@
         </arrayController>
     </objects>
     <resources>
-        <image name="F0F83BD3-A298-4D52-886D-E04C78226066" width="18" height="18">
+        <image name="A656BDE2-9257-4E8F-B931-B58FE21E8386" width="18" height="18">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGW1xYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFwcI
 ERYbHCc0NTY3ODk6O0JDRElMT1VYVSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNS
