@@ -3,4 +3,5 @@
 xcuserdata
 *.dmg
 /Seqotron/bin/*
+!/Seqotron/bin/.gitkeep
 /SeqotronQuicklook/DerivedData
