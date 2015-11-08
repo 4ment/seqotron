@@ -83,7 +83,7 @@
         NSString *outputFile    = [[outputDirPath stringByAppendingPathComponent:@"output.muscle.fa"] stringByAddingQuotesIfSpaces];
         NSString *transalignNuc = [[outputDirPath stringByAppendingPathComponent:@"input.nuc.fa"] stringByAddingQuotesIfSpaces];
         
-        NSURL *url = [NSURL URLWithString:[outputFile stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
+        NSURL *url = [NSURL fileURLWithPath:outputFile isDirectory:NO];
         [options setObject:url forKey:MFOperationOutputKey];
         
         // Input
