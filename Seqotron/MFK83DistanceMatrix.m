@@ -3,7 +3,7 @@
 //  Seqotron
 //
 //  Created by Mathieu on 11/05/2015.
-//  Copyright (c) 2015 University of Sydney. All rights reserved.
+//  Copyright (c) 2015 Mathieu Fourment. All rights reserved.
 //
 //  This file is part of Seqotron.
 //

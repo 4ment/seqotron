@@ -28,6 +28,7 @@
 extern NSString *MFExternalOperationLaunchPathKey;
 extern NSString *MFExternalOperationArgumentsKey;
 extern NSString *MFExternalOperationInputKey;
+extern NSString *MFExternalOperationStdoutFileKey;
 extern NSString *MFExternalOperationStdoutKey;
 extern NSString *MFExternalOperationStderrKey;
 
@@ -36,6 +37,7 @@ extern NSString *MFExternalOperationStderrKey;
     NSFileHandle *_stdOutHandle;
     NSFileHandle *_stdInHandle;
     BOOL _parseStdout;// if YES the output is parsed. It can be an alignment or a tree
+    BOOL _stdoutRedirectedToFile;
     NSString *_currentLineStdOut;
     NSTimer *_timer;
     

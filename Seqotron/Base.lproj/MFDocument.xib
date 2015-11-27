@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7702"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9060"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="MFWindowController">
@@ -52,6 +52,7 @@
                                     <customView id="hdo-3w-UMQ">
                                         <rect key="frame" x="0.0" y="373" width="87" height="20"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <animations/>
                                     </customView>
                                     <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" horizontalScrollElasticity="none" verticalScrollElasticity="none" id="BPb-nj-GTp" customClass="MFSyncronizedScrollView">
                                         <rect key="frame" x="0.0" y="0.0" width="87" height="373"/>
@@ -63,20 +64,26 @@
                                                 <view id="ZbT-9E-1O2" customClass="MFNamesView">
                                                     <rect key="frame" x="0.0" y="0.0" width="70" height="356"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                    <animations/>
                                                 </view>
                                             </subviews>
+                                            <animations/>
                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                         </clipView>
+                                        <animations/>
                                         <scroller key="horizontalScroller" verticalHuggingPriority="750" horizontal="YES" id="FAz-8G-XVR">
-                                            <rect key="frame" x="1" y="357" width="45" height="15"/>
+                                            <rect key="frame" x="1" y="357" width="70" height="15"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <animations/>
                                         </scroller>
                                         <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="pcX-gl-PJw">
-                                            <rect key="frame" x="46" y="1" width="15" height="356"/>
+                                            <rect key="frame" x="71" y="1" width="15" height="356"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <animations/>
                                         </scroller>
                                     </scrollView>
                                 </subviews>
+                                <animations/>
                             </customView>
                             <customView id="mum-UX-21V">
                                 <rect key="frame" x="88" y="0.0" width="626" height="393"/>
@@ -92,29 +99,37 @@
                                                 <view id="pCY-JN-mce" customClass="MFSequencesView">
                                                     <rect key="frame" x="0.0" y="0.0" width="609" height="356"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                    <animations/>
                                                     <connections>
                                                         <outlet property="delegate" destination="-2" id="tZt-sk-lli"/>
                                                     </connections>
                                                 </view>
                                             </subviews>
+                                            <animations/>
                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                         </clipView>
+                                        <animations/>
                                         <scroller key="horizontalScroller" verticalHuggingPriority="750" horizontal="YES" id="kHz-fh-Xqa">
-                                            <rect key="frame" x="1" y="357" width="427" height="15"/>
+                                            <rect key="frame" x="1" y="357" width="609" height="15"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <animations/>
                                         </scroller>
                                         <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="uRa-1b-6m6">
-                                            <rect key="frame" x="428" y="1" width="15" height="356"/>
+                                            <rect key="frame" x="610" y="1" width="15" height="356"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <animations/>
                                         </scroller>
                                     </scrollView>
                                     <customView id="40N-Q1-j0D" customClass="MFRulerView">
                                         <rect key="frame" x="0.0" y="373" width="626" height="20"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <animations/>
                                     </customView>
                                 </subviews>
+                                <animations/>
                             </customView>
                         </subviews>
+                        <animations/>
                         <holdingPriorities>
                             <real value="250"/>
                             <real value="250"/>
@@ -124,8 +139,9 @@
                         </connections>
                     </splitView>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="jjC-GQ-vGk">
-                        <rect key="frame" x="7" y="4" width="479" height="14"/>
+                        <rect key="frame" x="7" y="4" width="689" height="14"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                        <animations/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="7nK-ro-BDd">
                             <font key="font" metaFont="system" size="10"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -140,6 +156,7 @@
                         </connections>
                     </textField>
                 </subviews>
+                <animations/>
             </view>
             <toolbar key="toolbar" implicitIdentifier="457CAABD-8D24-4B72-85AD-2B0D5D01C752" autosavesConfiguration="NO" displayMode="iconAndLabel" sizeMode="regular" id="0C7-wv-z3D">
                 <allowedToolbarItems>
@@ -151,6 +168,7 @@
                         <popUpButton key="view" verticalHuggingPriority="750" id="HjY-EC-fiz">
                             <rect key="frame" x="0.0" y="14" width="100" height="25"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <animations/>
                             <popUpButtonCell key="cell" type="roundTextured" title="Item 1" bezelStyle="texturedRounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" selectedItem="siT-es-2Ow" id="oS1-TT-laI">
                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                 <font key="font" metaFont="menu"/>
@@ -176,6 +194,7 @@
                         <popUpButton key="view" id="K9x-e8-zGI">
                             <rect key="frame" x="0.0" y="9" width="100" height="25"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            <animations/>
                             <popUpButtonCell key="cell" type="roundTextured" bezelStyle="texturedRounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" autoenablesItems="NO" selectedItem="Yxy-nH-pUn" id="hZ4-Fq-tD9">
                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                 <font key="font" metaFont="menu"/>
@@ -201,6 +220,7 @@
                         <popUpButton key="view" verticalHuggingPriority="750" id="Dia-Ep-hUU">
                             <rect key="frame" x="0.0" y="14" width="100" height="25"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <animations/>
                             <popUpButtonCell key="cell" type="roundTextured" bezelStyle="texturedRounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="border" imageScaling="proportionallyDown" inset="2" autoenablesItems="NO" id="8YA-wp-1Pm">
                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                 <font key="font" metaFont="menu"/>
@@ -227,6 +247,7 @@
                         <searchField key="view" wantsLayer="YES" verticalHuggingPriority="750" tag="999" id="ivq-8Q-qCO">
                             <rect key="frame" x="0.0" y="14" width="96" height="22"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <animations/>
                             <searchFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" borderStyle="bezel" usesSingleLineMode="YES" bezelStyle="round" sendsWholeSearchString="YES" id="P5l-Pp-tAF">
                                 <font key="font" metaFont="system"/>
                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -266,6 +287,7 @@
                 <comboBox verticalHuggingPriority="750" id="efM-qq-rof">
                     <rect key="frame" x="20" y="16" width="239" height="26"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <animations/>
                     <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" completes="NO" numberOfVisibleItems="5" id="sIy-ZL-epa">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -283,6 +305,7 @@
                     </comboBoxCell>
                 </comboBox>
             </subviews>
+            <animations/>
         </customView>
         <userDefaultsController representsSharedInstance="YES" id="7nc-Tq-vut"/>
         <arrayController id="aPM-8k-Gsk" userLabel="Genetic Codes Controller">

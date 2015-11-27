@@ -26,8 +26,9 @@
 NSString *MFExternalOperationLaunchPathKey    = @"tk.phylogenetics.external.operation.launchPath";
 NSString *MFExternalOperationArgumentsKey     = @"tk.phylogenetics.external.operation.arguments";
 NSString *MFExternalOperationInputKey         = @"tk.phylogenetics.external.operation.input";
-NSString *MFExternalOperationStdoutKey         = @"tk.phylogenetics.external.read.stdout";
-NSString *MFExternalOperationStderrKey         = @"tk.phylogenetics.external.read.stderr";
+NSString *MFExternalOperationStdoutFileKey    = @"tk.phylogenetics.external.operation.stdout.file";
+NSString *MFExternalOperationStdoutKey         = @"tk.phylogenetics.external.operation.read.stdout";
+NSString *MFExternalOperationStderrKey         = @"tk.phylogenetics.external.operation.read.stderr";
 
 @implementation MFExternalOperation
 
@@ -37,8 +38,13 @@ NSString *MFExternalOperationStderrKey         = @"tk.phylogenetics.external.rea
         _task = [[NSTask alloc]init];
         _stdOutHandle = nil;
         _parseStdout = YES;
+        _stdoutRedirectedToFile = NO;
         _stdInHandle = nil;
         _currentLineStdOut = [@"" copy];
+        
+        if( [options objectForKey:MFExternalOperationStdoutFileKey] ){
+            _stdoutRedirectedToFile = [[options objectForKey:MFExternalOperationStdoutFileKey] boolValue];
+        }
         
         [_task setLaunchPath:[options objectForKey:MFExternalOperationLaunchPathKey]];
         [_task setArguments:[options objectForKey:MFExternalOperationArgumentsKey]];
@@ -46,7 +52,7 @@ NSString *MFExternalOperationStderrKey         = @"tk.phylogenetics.external.rea
         if ( [[options objectForKey:MFExternalOperationStdoutKey] boolValue] ) {
             NSPipe *stdOutPipe = [NSPipe pipe];
             _stdOutHandle = [stdOutPipe fileHandleForReading];
-            [_task setStandardError: stdOutPipe];
+            [_task setStandardOutput: stdOutPipe];
         }
         else if ( [[options objectForKey:MFExternalOperationStderrKey] boolValue] ) {
             NSPipe *stdOutPipe = [NSPipe pipe];
@@ -56,6 +62,14 @@ NSString *MFExternalOperationStderrKey         = @"tk.phylogenetics.external.rea
             _timer = [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(logMethod:) userInfo:nil repeats:YES];
             
             [[NSRunLoop currentRunLoop] addTimer:_timer forMode:NSRunLoopCommonModes];
+        }
+        else if( _stdoutRedirectedToFile ){
+            _stdOutHandle = [NSFileHandle fileHandleForWritingAtPath:[_outputURL path]];
+            if(_stdOutHandle == nil) {
+                [[NSFileManager defaultManager] createFileAtPath:[_outputURL path] contents:nil attributes:nil];
+                _stdOutHandle = [NSFileHandle fileHandleForWritingAtPath:[_outputURL path]];
+            }
+            [_task setStandardOutput : _stdOutHandle];
         }
     }
     return self;
@@ -79,8 +93,7 @@ NSString *MFExternalOperationStderrKey         = @"tk.phylogenetics.external.rea
     
     
     NSData *data;
-    if( _stdOutHandle != nil ){
-        
+    if( !_stdoutRedirectedToFile && _stdOutHandle != nil ){
         if( !_parseStdout ){
             data = [_stdOutHandle readDataToEndOfFile];
         }

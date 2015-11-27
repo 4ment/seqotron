@@ -38,7 +38,7 @@
         
         _sequences = [sequences retain];
         _musclePath = [[[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"bin/muscle"] copy];
-        _mafftPath = [[[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"bin/mafft.bat"] copy];;
+        _mafftPath = [[[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"bin/mafft/mafft.bat"] copy];;
         NSError *error = nil;
         NSURL *cacheDir = [[NSFileManager defaultManager] URLForDirectory:NSCachesDirectory inDomain:NSUserDomainMask appropriateForURL:nil create:YES error:&error];
         
@@ -79,8 +79,8 @@
     
     if( !error ){
         
-        NSString *inputFile     = [[outputDirPath stringByAppendingPathComponent:@"input.muscle.fa"] stringByAddingQuotesIfSpaces];
-        NSString *outputFile    = [[outputDirPath stringByAppendingPathComponent:@"output.muscle.fa"] stringByAddingQuotesIfSpaces];
+        NSString *inputFile     = [[outputDirPath stringByAppendingPathComponent:@"input.fa"] stringByAddingQuotesIfSpaces];
+        NSString *outputFile    = [[outputDirPath stringByAppendingPathComponent:@"output.fa"] stringByAddingQuotesIfSpaces];
         NSString *transalignNuc = [[outputDirPath stringByAppendingPathComponent:@"input.nuc.fa"] stringByAddingQuotesIfSpaces];
         
         NSURL *url = [NSURL fileURLWithPath:outputFile isDirectory:NO];
@@ -150,9 +150,7 @@
             
             [arguments addObject:inputFile];
             
-            [arguments addObject:@">"];
-            [arguments addObject:outputFile];
-            
+            [options setObject:[NSNumber numberWithBool:YES] forKey:MFExternalOperationStdoutFileKey];
             [options setObject:[@"MAFFT: " stringByAppendingString:[inputFile lastPathComponent]] forKey:MFOperationDescriptionKey];
             
             [options setObject:_mafftPath forKey:MFExternalOperationLaunchPathKey];
