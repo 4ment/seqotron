@@ -83,8 +83,18 @@
 //            [self.delegate operation:self setDescription:self.description];
 //        });
 //    }
-    
-    [_matrix calculateDistances];
+    float **matrix = [_matrix floatMatrix];
+    NSUInteger dimension = [_sequences count];
+    for ( NSUInteger i = 0; i < dimension; i++ ) {
+        MFSequence *seq1 = [_sequences objectAtIndex:i];
+        
+        for ( NSUInteger j = i+1; j < dimension; j++ ) {
+            MFSequence *seq2 = [_sequences objectAtIndex:j];
+            matrix[i][j] = matrix[j][i] = [_matrix calculatePairwiseDistanceBetween:seq1 and:seq2];
+        }
+        if( [self isCancelled] )break;
+    }
+    //[_matrix calculateDistances];
     
 //    [(NSObject *)self.delegate performSelectorOnMainThread: @selector(distanceMatrixDidFinish:)
 //                                       withObject: self

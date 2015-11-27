@@ -28,14 +28,14 @@
 - (float)calculatePairwiseDistanceBetween:(MFSequence*)sequence1 and:(MFSequence*)sequence2{
     float d = 0;
     NSUInteger n = 0;
-    const char *c1 = [[sequence1 sequence]UTF8String];
-    const char *c2 = [[sequence2 sequence]UTF8String];
     MFDataType *dataType = sequence1.dataType;
     NSUInteger dimension = [sequence1 length];
-    
+    char c1,c2;
     for ( NSUInteger k = 0; k < dimension; k++ ) {
-        if( [dataType isKnownChar:c1[k]] && [dataType isKnownChar:c2[k]] ){
-            if( c1[k] != c2[k] ){
+        c1 = [[sequence1 sequence ]characterAtIndex:k];
+        c2 = [[sequence2 sequence ]characterAtIndex:k];
+        if( [dataType isKnownChar:c1] && [dataType isKnownChar:c2] ){
+            if( c1 != c2 ){
                 d++;
             }
             n++;
