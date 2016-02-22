@@ -19,4 +19,4 @@ Seqotron is a user-friendly sequence editor. It is written in Objective-C/Cocoa 
 
 ## Reference
 
-Mathieu Fourment and Edward C. Holmes. Seqotron: a user-friendly sequence editor for Mac OS X. (Submitted)
+Mathieu Fourment and Edward C. Holmes. Seqotron: a user-friendly sequence editor for Mac OS X. *BMC Res Notes*, 2016, 17;9(1):106; doi: 10.1186/s13104-016-1927-4
