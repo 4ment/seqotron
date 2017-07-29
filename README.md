@@ -1,3 +1,8 @@
+seqotron
+=======
+
+[![Build Status](https://travis-ci.org/4ment/seqotron.svg?branch=master)](https://travis-ci.org/4ment/seqotron)
+
 ![Sequence viewer](http://mateo.fourment.free.fr/software/seqotron/seqotron-screenshot.png "Seqotron sequence viewer")
 
 Seqotron is a user-friendly sequence editor. It is written in Objective-C/Cocoa and runs on Mac OS X.
