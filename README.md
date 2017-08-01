@@ -1,6 +1,7 @@
 seqotron
 =======
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/954589dcfb7f4c25bb9f2d1cdbb658e8)](https://www.codacy.com/app/m.fourment/seqotron?utm_source=github.com&utm_medium=referral&utm_content=4ment/seqotron&utm_campaign=badger)
 [![Build Status](https://travis-ci.org/4ment/seqotron.svg?branch=master)](https://travis-ci.org/4ment/seqotron)
 
 ![Sequence viewer](http://mateo.fourment.free.fr/software/seqotron/seqotron-screenshot.png "Seqotron sequence viewer")
